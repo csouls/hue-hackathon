@@ -1,6 +1,0 @@
-$ mkdir Image
-... ファイル追加 ...
-$ git add -A
-$ git commit -m "Add image files"
-$ git pull
-$ git push

@@ -14,5 +14,7 @@ gem 'jbuilder'
 # Use puma as the app server
 gem 'puma'
 
+gem 'dalli'
+
 # iOS push notification
 gem 'houston'

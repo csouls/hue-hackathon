@@ -133,7 +133,7 @@ static ALMCentralManager *_sharedInstance = nil;
 
 	// 繰り返しのAPI送信を防ぐ
 	if (![self isRequireReSendAPI]) {
-		return;
+		//return;
 	}
 
 	// 距離がNearのビーコンリストを作成する
@@ -147,7 +147,7 @@ static ALMCentralManager *_sharedInstance = nil;
 		// デバッグ
 		switch (proximity) {
 			case CLProximityUnknown:
-				NSLog(@"%@ proximity CLProximityImmediate", NSStringFromSelector(_cmd));
+				NSLog(@"%@ proximity CLProximityUnknown", NSStringFromSelector(_cmd));
 				break;
 
 			case CLProximityImmediate:
@@ -155,11 +155,11 @@ static ALMCentralManager *_sharedInstance = nil;
 				break;
 
 			case CLProximityNear:
-				NSLog(@"%@ proximity CLProximityImmediate", NSStringFromSelector(_cmd));
+				NSLog(@"%@ proximity CLProximityNear", NSStringFromSelector(_cmd));
 				break;
 
 			case CLProximityFar:
-				NSLog(@"%@ proximity CLProximityImmediate", NSStringFromSelector(_cmd));
+				NSLog(@"%@ proximity CLProximityFar", NSStringFromSelector(_cmd));
 				break;
 
 			default:
@@ -201,6 +201,24 @@ static ALMCentralManager *_sharedInstance = nil;
 		return YES;
 	}
 	return NO;
+}
+
+/**
+ *  LocalNotificationを表示する
+ *
+ *  @param message message
+ */
+- (void)sendNotification:(NSString*)message
+{
+    UILocalNotification *notification = [[UILocalNotification alloc] init];
+    
+    notification.fireDate = [[NSDate date] init];
+    notification.timeZone = [NSTimeZone defaultTimeZone];
+    notification.alertBody = message;
+    notification.alertAction = @"Open";
+    notification.soundName = UILocalNotificationDefaultSoundName;
+    
+    [[UIApplication sharedApplication] scheduleLocalNotification:notification];
 }
 
 @end

@@ -19,7 +19,9 @@
     IBOutlet UIImageView *examPicture;
     
     /// 回答の番号を保持する。
-    int number;
+    NSInteger number;
 }
+
+-(void)setNumber:(NSInteger)number_;
 
 @end

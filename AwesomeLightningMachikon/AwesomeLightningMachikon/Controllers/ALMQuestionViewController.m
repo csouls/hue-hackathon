@@ -14,19 +14,35 @@
 
 @implementation ALMQuestionViewController
 
+/// 各回答ボタンのtag
+static const int tagANSWER_A = 1;
+static const int tagANSWER_B = 2;
+static const int tagANSWER_C = 3;
+static const int tagANSWER_D = 4;
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // Custom initialization
+        number = 0;// 最初は0
     }
     return self;
+}
+
+-(void)setNumber:(NSInteger)number_
+{
+    number = number + 1;
 }
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    for(UIButton *button in answerButtons){
+        [button addTarget:self action:@selector(answer:)
+         forControlEvents:UIControlEventTouchUpInside];
+    }
 }
 
 - (void)didReceiveMemoryWarning
@@ -36,7 +52,14 @@
 }
 
 #pragma mark - action
-
+-(void)answer:(id)sender
+{
+    UIButton *button = sender;
+    NSLog(@"View.tag:%d",button.tag);
+    ALMQuestionViewController *controller = [self.storyboard instantiateViewControllerWithIdentifier:@"Question"];
+    [controller setNumber:number];
+    [self.navigationController pushViewController:controller animated:YES];
+}
 /*
 #pragma mark - Navigation
 

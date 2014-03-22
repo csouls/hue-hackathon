@@ -41,7 +41,7 @@
         <!--Question View Controller-->
         <scene sceneID="KUB-KK-htn">
             <objects>
-                <viewController id="K9N-1P-zj9" customClass="ALMQuestionViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Question" useStoryboardIdentifierAsRestorationIdentifier="YES" id="K9N-1P-zj9" customClass="ALMQuestionViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="vJ0-BC-Won">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>

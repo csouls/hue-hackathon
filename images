@@ -1,0 +1,6 @@
+$ mkdir Image
+C:\Users\irohashi\Documents\Document\GitFaile
+$ git add -A
+$ git commit -m "Add image files"
+$ git pull
+$ git push

@@ -28,6 +28,6 @@ module AlmServer
     # Disable the asset pipeline.
     config.assets.enabled = false
 
-    config.cache_store = :dalli_store, nil, { :namespace => 'alm', :expires_in => 7.day, :compress => true }
+    config.cache_store = :dalli_store, "", { :namespace => 'alm', :expires_in => 7.day, :compress => true }
   end
 end

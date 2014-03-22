@@ -6,12 +6,12 @@ default: &default
 
 development:
   <<: *default
-  database: tales_dev
+  database: alm_dev
 
 test:
   <<: *default
-  database: tales_test
+  database: alm_test
 
 production:
   <<: *default
-  database: tales_dev
+  database: alm

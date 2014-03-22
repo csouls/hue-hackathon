@@ -41,6 +41,11 @@ static int NUMBER = 0;
     }
     NUMBER += 1;
     
+    if(NUMBER == 1)
+    {
+        [self clearAnswers];
+    }
+    
     return self;
 }
 
@@ -54,7 +59,7 @@ static int NUMBER = 0;
     [super viewDidLoad];
     
     // 問題設定 nilはこない前提
-    NSArray *exams = [self loadExam];
+    NSArray *exams = [self loadExam:@"ALMQuestions"];
     
     for(UIButton *button in answerButtons){
         [button addTarget:self action:@selector(answer:)
@@ -78,12 +83,20 @@ static int NUMBER = 0;
     UIButton *button = sender;
     NSLog(@"exam:%d",NUMBER);
     NSLog(@"View.tag:%d",button.tag);
+    
+    NSDictionary *dict = @{
+                           [[NSString alloc] initWithFormat:@"%d",NUMBER] :
+                           [[NSString alloc] initWithFormat:@"%c",button.tag + 'A'-1]};
+    
+    [self saveAnswer:dict];
+    // 引き続き質問
     if(NUMBER < MAX_EXAM)
     {
         ALMQuestionViewController *controller = [self.storyboard instantiateViewControllerWithIdentifier:@"Question"];
         [self.navigationController pushViewController:controller animated:YES];
         
     }
+    //質問完了
     else
     {
         ALMAdvertiserViewController *controller = [self.storyboard instantiateViewControllerWithIdentifier:@"Advertiser"];
@@ -92,21 +105,57 @@ static int NUMBER = 0;
 }
 
 #pragma mark - private
--(NSArray*)loadExam
+-(NSMutableArray*)loadExam:(NSString*)filename
 {
-    NSString* filePath = [[NSBundle mainBundle] pathForResource:@"ALMQuestions" ofType:@"plist"];
+    NSString* filePath = [[NSBundle mainBundle] pathForResource:filename ofType:@"plist"];
     
     // ファイルマネージャを作成
     NSFileManager *fileManager = [NSFileManager defaultManager];
     
-    // ファイルが存在しないか?
-    if (![fileManager fileExistsAtPath:filePath]) { // yes
+    // ファイルが存在しないか デバック用
+    if (![fileManager fileExistsAtPath:filePath]) {
         NSLog(@"plistが存在しません．");
         return nil;
     }
     
     // plistを読み込む
-    return [NSArray arrayWithContentsOfFile:filePath];
+    return [NSMutableArray arrayWithContentsOfFile:filePath];
+}
+
+-(bool)saveAnswer:(NSDictionary*)dict_
+{
+    NSString* filePath = [[NSBundle mainBundle] pathForResource:@"ALMAnswers" ofType:@"plist"];
+    
+    // ファイルマネージャを作成
+    NSFileManager *fileManager = [NSFileManager defaultManager];
+    
+    // ファイルが存在しないか デバック用
+    if (![fileManager fileExistsAtPath:filePath]) {
+        NSLog(@"plistが存在しません．");
+        return false;
+    }
+    
+    NSMutableArray *arr = [NSMutableArray arrayWithContentsOfFile:filePath];
+    [arr addObject:dict_];
+    BOOL result = [arr writeToFile:filePath atomically:YES];
+    return result;
+}
+
+-(bool)clearAnswers
+{
+    NSString* filePath = [[NSBundle mainBundle] pathForResource:@"ALMAnswers" ofType:@"plist"];
+    
+    // ファイルマネージャを作成
+    NSFileManager *fileManager = [NSFileManager defaultManager];
+    
+    // ファイルが存在しないか デバック用
+    if (![fileManager fileExistsAtPath:filePath]) {
+        NSLog(@"plistが存在しません．");
+        return false;
+    }
+    NSArray *arr = [[NSArray alloc] init];
+    BOOL result = [arr writeToFile:filePath atomically:YES];
+    return result;
 }
 /*
 #pragma mark - Navigation

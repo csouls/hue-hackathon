@@ -18,8 +18,6 @@
     /// 出題写真
     IBOutlet UIImageView *examPicture;
     
-    /// 回答の番号を保持する。
-    NSInteger number;
 }
 
 @end

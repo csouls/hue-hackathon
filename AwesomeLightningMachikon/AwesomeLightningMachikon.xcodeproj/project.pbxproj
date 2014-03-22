@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5AECDF3318DD9FFE0089F166 /* ABFBeacon.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AECDF3018DD9FFE0089F166 /* ABFBeacon.m */; };
+		5AECDF3418DD9FFE0089F166 /* ABFBeaconRegion.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AECDF3218DD9FFE0089F166 /* ABFBeaconRegion.m */; };
+		5AECDF3818DDA3240089F166 /* ALMCentralManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AECDF3718DDA3240089F166 /* ALMCentralManager.m */; };
 		FFDD267D18DD7DE000557A31 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFDD267C18DD7DE000557A31 /* Foundation.framework */; };
 		FFDD267F18DD7DE000557A31 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFDD267E18DD7DE000557A31 /* CoreGraphics.framework */; };
 		FFDD268118DD7DE000557A31 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFDD268018DD7DE000557A31 /* UIKit.framework */; };
@@ -36,6 +39,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5AECDF2F18DD9FFE0089F166 /* ABFBeacon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABFBeacon.h; sourceTree = "<group>"; };
+		5AECDF3018DD9FFE0089F166 /* ABFBeacon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABFBeacon.m; sourceTree = "<group>"; };
+		5AECDF3118DD9FFE0089F166 /* ABFBeaconRegion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABFBeaconRegion.h; sourceTree = "<group>"; };
+		5AECDF3218DD9FFE0089F166 /* ABFBeaconRegion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABFBeaconRegion.m; sourceTree = "<group>"; };
+		5AECDF3618DDA3240089F166 /* ALMCentralManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALMCentralManager.h; sourceTree = "<group>"; };
+		5AECDF3718DDA3240089F166 /* ALMCentralManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALMCentralManager.m; sourceTree = "<group>"; };
 		FFDD267918DD7DE000557A31 /* AwesomeLightningMachikon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AwesomeLightningMachikon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFDD267C18DD7DE000557A31 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FFDD267E18DD7DE000557A31 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -85,6 +94,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5AECDF2D18DD9FFE0089F166 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				5AECDF2E18DD9FFE0089F166 /* ABFBeacon */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		5AECDF2E18DD9FFE0089F166 /* ABFBeacon */ = {
+			isa = PBXGroup;
+			children = (
+				5AECDF2F18DD9FFE0089F166 /* ABFBeacon.h */,
+				5AECDF3018DD9FFE0089F166 /* ABFBeacon.m */,
+				5AECDF3118DD9FFE0089F166 /* ABFBeaconRegion.h */,
+				5AECDF3218DD9FFE0089F166 /* ABFBeaconRegion.m */,
+			);
+			path = ABFBeacon;
+			sourceTree = "<group>";
+		};
+		5AECDF3518DDA2FA0089F166 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5AECDF3618DDA3240089F166 /* ALMCentralManager.h */,
+				5AECDF3718DDA3240089F166 /* ALMCentralManager.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		FFDD267018DD7DE000557A31 = {
 			isa = PBXGroup;
 			children = (
@@ -121,8 +158,9 @@
 				FFDD268B18DD7DE000557A31 /* ALMAppDelegate.h */,
 				FFDD268C18DD7DE000557A31 /* ALMAppDelegate.m */,
 				FFDD26B718DD837B00557A31 /* Controllers */,
-				FFDD26BE18DD837B00557A31 /* Models */,
 				FFDD26BF18DD837B00557A31 /* Views */,
+				5AECDF3518DDA2FA0089F166 /* Models */,
+				5AECDF2D18DD9FFE0089F166 /* Libraries */,
 				FFDD268E18DD7DE000557A31 /* Main.storyboard */,
 				FFDD269418DD7DE000557A31 /* Images.xcassets */,
 				FFDD268318DD7DE000557A31 /* Supporting Files */,
@@ -170,13 +208,6 @@
 				FFDD26BD18DD837B00557A31 /* ALMViewController.m */,
 			);
 			path = Controllers;
-			sourceTree = "<group>";
-		};
-		FFDD26BE18DD837B00557A31 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
 			sourceTree = "<group>";
 		};
 		FFDD26BF18DD837B00557A31 /* Views */ = {
@@ -285,9 +316,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				FFDD268918DD7DE000557A31 /* main.m in Sources */,
+				5AECDF3318DD9FFE0089F166 /* ABFBeacon.m in Sources */,
 				FFDD26C218DD837B00557A31 /* ALMViewController.m in Sources */,
 				FFDD26C018DD837B00557A31 /* ALMAdvertiserViewController.m in Sources */,
+				5AECDF3818DDA3240089F166 /* ALMCentralManager.m in Sources */,
 				FFDD268D18DD7DE000557A31 /* ALMAppDelegate.m in Sources */,
+				5AECDF3418DD9FFE0089F166 /* ABFBeaconRegion.m in Sources */,
 				FFDD26C118DD837B00557A31 /* ALMQuestionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

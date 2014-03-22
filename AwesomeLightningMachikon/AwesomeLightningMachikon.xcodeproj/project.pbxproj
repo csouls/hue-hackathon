@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FFDD267D18DD7DE000557A31 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFDD267C18DD7DE000557A31 /* Foundation.framework */; };
+		FFDD267F18DD7DE000557A31 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFDD267E18DD7DE000557A31 /* CoreGraphics.framework */; };
+		FFDD268118DD7DE000557A31 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFDD268018DD7DE000557A31 /* UIKit.framework */; };
+		FFDD268718DD7DE000557A31 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FFDD268518DD7DE000557A31 /* InfoPlist.strings */; };
+		FFDD268918DD7DE000557A31 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FFDD268818DD7DE000557A31 /* main.m */; };
+		FFDD268D18DD7DE000557A31 /* ALMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FFDD268C18DD7DE000557A31 /* ALMAppDelegate.m */; };
+		FFDD269018DD7DE000557A31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFDD268E18DD7DE000557A31 /* Main.storyboard */; };
+		FFDD269318DD7DE000557A31 /* ALMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFDD269218DD7DE000557A31 /* ALMViewController.m */; };
+		FFDD269518DD7DE000557A31 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFDD269418DD7DE000557A31 /* Images.xcassets */; };
+		FFDD269C18DD7DE000557A31 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFDD269B18DD7DE000557A31 /* XCTest.framework */; };
+		FFDD269D18DD7DE000557A31 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFDD267C18DD7DE000557A31 /* Foundation.framework */; };
+		FFDD269E18DD7DE000557A31 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFDD268018DD7DE000557A31 /* UIKit.framework */; };
+		FFDD26A618DD7DE000557A31 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FFDD26A418DD7DE000557A31 /* InfoPlist.strings */; };
+		FFDD26A818DD7DE000557A31 /* AwesomeLightningMachikonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FFDD26A718DD7DE000557A31 /* AwesomeLightningMachikonTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FFDD269F18DD7DE000557A31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFDD267118DD7DE000557A31 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFDD267818DD7DE000557A31;
+			remoteInfo = AwesomeLightningMachikon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FFDD267918DD7DE000557A31 /* AwesomeLightningMachikon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AwesomeLightningMachikon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFDD267C18DD7DE000557A31 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FFDD267E18DD7DE000557A31 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FFDD268018DD7DE000557A31 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FFDD268418DD7DE000557A31 /* AwesomeLightningMachikon-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AwesomeLightningMachikon-Info.plist"; sourceTree = "<group>"; };
+		FFDD268618DD7DE000557A31 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FFDD268818DD7DE000557A31 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FFDD268A18DD7DE000557A31 /* AwesomeLightningMachikon-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AwesomeLightningMachikon-Prefix.pch"; sourceTree = "<group>"; };
+		FFDD268B18DD7DE000557A31 /* ALMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALMAppDelegate.h; sourceTree = "<group>"; };
+		FFDD268C18DD7DE000557A31 /* ALMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALMAppDelegate.m; sourceTree = "<group>"; };
+		FFDD268F18DD7DE000557A31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FFDD269118DD7DE000557A31 /* ALMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALMViewController.h; sourceTree = "<group>"; };
+		FFDD269218DD7DE000557A31 /* ALMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALMViewController.m; sourceTree = "<group>"; };
+		FFDD269418DD7DE000557A31 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FFDD269A18DD7DE000557A31 /* AwesomeLightningMachikonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AwesomeLightningMachikonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFDD269B18DD7DE000557A31 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FFDD26A318DD7DE000557A31 /* AwesomeLightningMachikonTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AwesomeLightningMachikonTests-Info.plist"; sourceTree = "<group>"; };
+		FFDD26A518DD7DE000557A31 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FFDD26A718DD7DE000557A31 /* AwesomeLightningMachikonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AwesomeLightningMachikonTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFDD267618DD7DE000557A31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFDD267F18DD7DE000557A31 /* CoreGraphics.framework in Frameworks */,
+				FFDD268118DD7DE000557A31 /* UIKit.framework in Frameworks */,
+				FFDD267D18DD7DE000557A31 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFDD269718DD7DE000557A31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFDD269C18DD7DE000557A31 /* XCTest.framework in Frameworks */,
+				FFDD269E18DD7DE000557A31 /* UIKit.framework in Frameworks */,
+				FFDD269D18DD7DE000557A31 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FFDD267018DD7DE000557A31 = {
+			isa = PBXGroup;
+			children = (
+				FFDD268218DD7DE000557A31 /* AwesomeLightningMachikon */,
+				FFDD26A118DD7DE000557A31 /* AwesomeLightningMachikonTests */,
+				FFDD267B18DD7DE000557A31 /* Frameworks */,
+				FFDD267A18DD7DE000557A31 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FFDD267A18DD7DE000557A31 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFDD267918DD7DE000557A31 /* AwesomeLightningMachikon.app */,
+				FFDD269A18DD7DE000557A31 /* AwesomeLightningMachikonTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFDD267B18DD7DE000557A31 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FFDD267C18DD7DE000557A31 /* Foundation.framework */,
+				FFDD267E18DD7DE000557A31 /* CoreGraphics.framework */,
+				FFDD268018DD7DE000557A31 /* UIKit.framework */,
+				FFDD269B18DD7DE000557A31 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FFDD268218DD7DE000557A31 /* AwesomeLightningMachikon */ = {
+			isa = PBXGroup;
+			children = (
+				FFDD268B18DD7DE000557A31 /* ALMAppDelegate.h */,
+				FFDD268C18DD7DE000557A31 /* ALMAppDelegate.m */,
+				FFDD268E18DD7DE000557A31 /* Main.storyboard */,
+				FFDD269118DD7DE000557A31 /* ALMViewController.h */,
+				FFDD269218DD7DE000557A31 /* ALMViewController.m */,
+				FFDD269418DD7DE000557A31 /* Images.xcassets */,
+				FFDD268318DD7DE000557A31 /* Supporting Files */,
+			);
+			path = AwesomeLightningMachikon;
+			sourceTree = "<group>";
+		};
+		FFDD268318DD7DE000557A31 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FFDD268418DD7DE000557A31 /* AwesomeLightningMachikon-Info.plist */,
+				FFDD268518DD7DE000557A31 /* InfoPlist.strings */,
+				FFDD268818DD7DE000557A31 /* main.m */,
+				FFDD268A18DD7DE000557A31 /* AwesomeLightningMachikon-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FFDD26A118DD7DE000557A31 /* AwesomeLightningMachikonTests */ = {
+			isa = PBXGroup;
+			children = (
+				FFDD26A718DD7DE000557A31 /* AwesomeLightningMachikonTests.m */,
+				FFDD26A218DD7DE000557A31 /* Supporting Files */,
+			);
+			path = AwesomeLightningMachikonTests;
+			sourceTree = "<group>";
+		};
+		FFDD26A218DD7DE000557A31 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FFDD26A318DD7DE000557A31 /* AwesomeLightningMachikonTests-Info.plist */,
+				FFDD26A418DD7DE000557A31 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFDD267818DD7DE000557A31 /* AwesomeLightningMachikon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFDD26AB18DD7DE000557A31 /* Build configuration list for PBXNativeTarget "AwesomeLightningMachikon" */;
+			buildPhases = (
+				FFDD267518DD7DE000557A31 /* Sources */,
+				FFDD267618DD7DE000557A31 /* Frameworks */,
+				FFDD267718DD7DE000557A31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AwesomeLightningMachikon;
+			productName = AwesomeLightningMachikon;
+			productReference = FFDD267918DD7DE000557A31 /* AwesomeLightningMachikon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FFDD269918DD7DE000557A31 /* AwesomeLightningMachikonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFDD26AE18DD7DE000557A31 /* Build configuration list for PBXNativeTarget "AwesomeLightningMachikonTests" */;
+			buildPhases = (
+				FFDD269618DD7DE000557A31 /* Sources */,
+				FFDD269718DD7DE000557A31 /* Frameworks */,
+				FFDD269818DD7DE000557A31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFDD26A018DD7DE000557A31 /* PBXTargetDependency */,
+			);
+			name = AwesomeLightningMachikonTests;
+			productName = AwesomeLightningMachikonTests;
+			productReference = FFDD269A18DD7DE000557A31 /* AwesomeLightningMachikonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFDD267118DD7DE000557A31 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ALM;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = machikons;
+				TargetAttributes = {
+					FFDD269918DD7DE000557A31 = {
+						TestTargetID = FFDD267818DD7DE000557A31;
+					};
+				};
+			};
+			buildConfigurationList = FFDD267418DD7DE000557A31 /* Build configuration list for PBXProject "AwesomeLightningMachikon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FFDD267018DD7DE000557A31;
+			productRefGroup = FFDD267A18DD7DE000557A31 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFDD267818DD7DE000557A31 /* AwesomeLightningMachikon */,
+				FFDD269918DD7DE000557A31 /* AwesomeLightningMachikonTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFDD267718DD7DE000557A31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFDD269518DD7DE000557A31 /* Images.xcassets in Resources */,
+				FFDD268718DD7DE000557A31 /* InfoPlist.strings in Resources */,
+				FFDD269018DD7DE000557A31 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFDD269818DD7DE000557A31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFDD26A618DD7DE000557A31 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFDD267518DD7DE000557A31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFDD268918DD7DE000557A31 /* main.m in Sources */,
+				FFDD268D18DD7DE000557A31 /* ALMAppDelegate.m in Sources */,
+				FFDD269318DD7DE000557A31 /* ALMViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFDD269618DD7DE000557A31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFDD26A818DD7DE000557A31 /* AwesomeLightningMachikonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FFDD26A018DD7DE000557A31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFDD267818DD7DE000557A31 /* AwesomeLightningMachikon */;
+			targetProxy = FFDD269F18DD7DE000557A31 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FFDD268518DD7DE000557A31 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFDD268618DD7DE000557A31 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FFDD268E18DD7DE000557A31 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFDD268F18DD7DE000557A31 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FFDD26A418DD7DE000557A31 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFDD26A518DD7DE000557A31 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FFDD26A918DD7DE000557A31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FFDD26AA18DD7DE000557A31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FFDD26AC18DD7DE000557A31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AwesomeLightningMachikon/AwesomeLightningMachikon-Prefix.pch";
+				INFOPLIST_FILE = "AwesomeLightningMachikon/AwesomeLightningMachikon-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FFDD26AD18DD7DE000557A31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AwesomeLightningMachikon/AwesomeLightningMachikon-Prefix.pch";
+				INFOPLIST_FILE = "AwesomeLightningMachikon/AwesomeLightningMachikon-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FFDD26AF18DD7DE000557A31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AwesomeLightningMachikon.app/AwesomeLightningMachikon";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AwesomeLightningMachikon/AwesomeLightningMachikon-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AwesomeLightningMachikonTests/AwesomeLightningMachikonTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		FFDD26B018DD7DE000557A31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AwesomeLightningMachikon.app/AwesomeLightningMachikon";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AwesomeLightningMachikon/AwesomeLightningMachikon-Prefix.pch";
+				INFOPLIST_FILE = "AwesomeLightningMachikonTests/AwesomeLightningMachikonTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFDD267418DD7DE000557A31 /* Build configuration list for PBXProject "AwesomeLightningMachikon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFDD26A918DD7DE000557A31 /* Debug */,
+				FFDD26AA18DD7DE000557A31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFDD26AB18DD7DE000557A31 /* Build configuration list for PBXNativeTarget "AwesomeLightningMachikon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFDD26AC18DD7DE000557A31 /* Debug */,
+				FFDD26AD18DD7DE000557A31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FFDD26AE18DD7DE000557A31 /* Build configuration list for PBXNativeTarget "AwesomeLightningMachikonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFDD26AF18DD7DE000557A31 /* Debug */,
+				FFDD26B018DD7DE000557A31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FFDD267118DD7DE000557A31 /* Project object */;
+}

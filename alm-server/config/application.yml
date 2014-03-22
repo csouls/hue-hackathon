@@ -1,0 +1,12 @@
+defaults: &defaults
+  beacon:
+    major_id: 65105
+
+development:
+  <<: *defaults
+
+test:
+  <<: *defaults
+
+production:
+  <<: *defaults

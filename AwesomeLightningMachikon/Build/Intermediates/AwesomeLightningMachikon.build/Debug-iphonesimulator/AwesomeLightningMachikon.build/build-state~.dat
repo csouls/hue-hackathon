@@ -1,0 +1,691 @@
+TAwesomeLightningMachikon
+v6
+r1
+cCheck dependencies
+cPhaseScriptExecution Check\ Pods\ Manifest.lock /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/Script-C0255F9AA550438D8D4B7AC3.sh
+cProcessPCH /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/PrecompiledHeaders/AwesomeLightningMachikon-Prefix-flyacvswwjckrdeuuhoeiqzvrmnr/AwesomeLightningMachikon-Prefix.pch.pch AwesomeLightningMachikon/AwesomeLightningMachikon-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/Objects-normal/i386/ALMPeripheralManager.o /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/Models/ALMPeripheralManager.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/Objects-normal/i386/ALMStartView.o /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/Views/ALMStartView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/Objects-normal/i386/main.o /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/Objects-normal/i386/ABFBeacon.o /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/Libraries/ABFBeacon/ABFBeacon.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/Objects-normal/i386/ALMViewController.o /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/Controllers/ALMViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/Objects-normal/i386/ALMAdvertiserViewController.o /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/Controllers/ALMAdvertiserViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/Objects-normal/i386/ALMCentralManager.o /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/Models/ALMCentralManager.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/Objects-normal/i386/ALMAppDelegate.o /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/ALMAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/Objects-normal/i386/ABFBeaconRegion.o /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/Libraries/ABFBeacon/ABFBeaconRegion.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/Objects-normal/i386/ALMQuestionViewController.o /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/Controllers/ALMQuestionViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Products/Debug-iphonesimulator/AwesomeLightningMachikon.app/AwesomeLightningMachikon normal i386
+cCopyPlistFile /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Products/Debug-iphonesimulator/AwesomeLightningMachikon.app/ALMQuestions.plist AwesomeLightningMachikon/Models/ALMQuestions.plist
+cCpResource Podfile Build/Products/Debug-iphonesimulator/AwesomeLightningMachikon.app/Podfile
+cCopyStringsFile /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Products/Debug-iphonesimulator/AwesomeLightningMachikon.app/en.lproj/InfoPlist.strings AwesomeLightningMachikon/en.lproj/InfoPlist.strings
+cCompileStoryboard /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/Base.lproj/Main.storyboard
+cCopyPlistFile /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Products/Debug-iphonesimulator/AwesomeLightningMachikon.app/ALMAnswers.plist AwesomeLightningMachikon/Models/ALMAnswers.plist
+cCompileAssetCatalog /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Products/Debug-iphonesimulator/AwesomeLightningMachikon.app /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/Images.xcassets
+cProcessInfoPlistFile /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Products/Debug-iphonesimulator/AwesomeLightningMachikon.app/Info.plist /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/AwesomeLightningMachikon-Info.plist
+cGenerateDSYMFile /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Products/Debug-iphonesimulator/AwesomeLightningMachikon.app.dSYM /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Products/Debug-iphonesimulator/AwesomeLightningMachikon.app/AwesomeLightningMachikon
+cPhaseScriptExecution Copy\ Pods\ Resources /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/Script-F1585997ABB745D0962388B1.sh
+cTouch /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Products/Debug-iphonesimulator/AwesomeLightningMachikon.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk
+c0000000052822DDF0000000000000176
+t1384263135
+s374
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/SDKSettings.plist
+c00000000526BC35400000000000003B5
+t1382794068
+s949
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/CoreServices/SystemVersion.plist
+c00000000526BC35C00000000000001A0
+t1382794076
+s416
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c00000000526BC35E0000000000445870
+t1382794078
+s4479088
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000526BC360000000000088C680
+t1382794080
+s8963712
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c00000000526BC3660000000001DB9910
+t1382794086
+s31168784
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/include/module.map
+c00000000526BC3920000000000000AC9
+t1382794130
+s2761
+
+N/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/ALMAppDelegate.m
+c00000000532D94DD00000000000008EB
+t1395496157
+s2283
+
+N/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/AwesomeLightningMachikon-Info.plist
+c00000000532D68D700000000000004C1
+t1395484887
+s1217
+
+N/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/AwesomeLightningMachikon-Prefix.pch
+c00000000532D63A20000000000000158
+t1395483554
+s344
+
+N/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/Base.lproj/Main.storyboard
+c00000000532DA0F20000000000003463
+t1395499250
+s13411
+
+N/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/Controllers/ALMAdvertiserViewController.m
+c00000000532D7B21000000000000049E
+t1395489569
+s1182
+
+N/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/Controllers/ALMQuestionViewController.m
+c00000000532DA77700000000000012B3
+t1395500919
+s4787
+
+N/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/Controllers/ALMViewController.m
+c00000000532D74BB00000000000001CB
+t1395487931
+s459
+
+N/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/Images.xcassets
+c00000000532DA0D50000000000000088
+t1395499221
+s136
+
+N/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/Libraries/ABFBeacon/ABFBeacon.m
+c00000000532D94DD0000000000003C19
+t1395496157
+s15385
+
+N/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/Libraries/ABFBeacon/ABFBeaconRegion.m
+c00000000532D94DD0000000000000179
+t1395496157
+s377
+
+N/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/Models/ALMAnswers.plist
+c00000000532DA8CC00000000000000B6
+t1395501260
+s182
+
+N/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/Models/ALMCentralManager.m
+c00000000532DA9B40000000000001894
+t1395501492
+s6292
+
+N/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/Models/ALMPeripheralManager.m
+c00000000532D94DD0000000000001058
+t1395496157
+s4184
+
+N/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/Models/ALMQuestions.plist
+c00000000532DA6D600000000000006F0
+t1395500758
+s1776
+
+N/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/Views/ALMStartView.m
+c00000000532D750F0000000000000236
+t1395488015
+s566
+
+N/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/en.lproj/InfoPlist.strings
+c00000000532D63A2000000000000002D
+t1395483554
+s45
+
+N/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/main.m
+c00000000532D63A2000000000000016D
+t1395483554
+s365
+
+N/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/Objects-normal/i386/ABFBeacon.o
+t1395505414
+s81092
+
+N/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/Objects-normal/i386/ABFBeaconRegion.o
+t1395505414
+s14540
+
+N/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/Objects-normal/i386/ALMAdvertiserViewController.o
+t1395505414
+s49840
+
+N/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/Objects-normal/i386/ALMAppDelegate.o
+t1395505414
+s66252
+
+N/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/Objects-normal/i386/ALMCentralManager.o
+t1395505414
+s31936
+
+N/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/Objects-normal/i386/ALMPeripheralManager.o
+t1395505414
+s26180
+
+N/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/Objects-normal/i386/ALMQuestionViewController.o
+t1395505414
+s66060
+
+N/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/Objects-normal/i386/ALMStartView.o
+t1395505414
+s40864
+
+N/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/Objects-normal/i386/ALMViewController.o
+t1395505414
+s48340
+
+N/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/Objects-normal/i386/AwesomeLightningMachikon.LinkFileList
+c00000000532DB906000000000000085C
+t1395505414
+s2140
+
+N/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/Objects-normal/i386/main.o
+t1395505414
+s3780
+
+N/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/Script-C0255F9AA550438D8D4B7AC3.sh
+c00000000532DB9060000000000000103
+t1395505414
+s259
+
+N/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/Script-F1585997ABB745D0962388B1.sh
+c00000000532DB906000000000000002F
+t1395505414
+s47
+
+N/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/assetcatalog_dependencies.txt
+t1395505417
+s538
+
+N/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/assetcatalog_generated_info.plist
+t1395505417
+s525
+
+N/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/PrecompiledHeaders/AwesomeLightningMachikon-Prefix-flyacvswwjckrdeuuhoeiqzvrmnr/AwesomeLightningMachikon-Prefix.pch.pch
+t1395505414
+s115872
+
+N/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Products/Debug-iphonesimulator/AwesomeLightningMachikon.app
+t1395505418
+s408
+
+N/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Products/Debug-iphonesimulator/AwesomeLightningMachikon.app.dSYM
+t2
+s0
+
+N/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Products/Debug-iphonesimulator/AwesomeLightningMachikon.app/ALMAnswers.plist
+t1395505414
+s42
+
+N/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Products/Debug-iphonesimulator/AwesomeLightningMachikon.app/ALMQuestions.plist
+t1395505414
+s613
+
+N/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Products/Debug-iphonesimulator/AwesomeLightningMachikon.app/AwesomeLightningMachikon
+t1395505414
+s657300
+
+N/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Products/Debug-iphonesimulator/AwesomeLightningMachikon.app/Base.lproj/Main.storyboardc
+t1395505418
+s306
+
+N/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Products/Debug-iphonesimulator/AwesomeLightningMachikon.app/Info.plist
+t1395505418
+s1060
+
+N/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Products/Debug-iphonesimulator/AwesomeLightningMachikon.app/PkgInfo
+t1395505418
+s8
+
+N/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Products/Debug-iphonesimulator/AwesomeLightningMachikon.app/Podfile
+t1395505414
+s50
+
+N/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Products/Debug-iphonesimulator/AwesomeLightningMachikon.app/en.lproj/InfoPlist.strings
+t1395505414
+s42
+
+N/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Products/Debug-iphonesimulator/libPods.a
+c00000000532DB8F80000000000166220
+t1395505400
+s1466912
+
+N/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Podfile
+c00000000532DB20C0000000000000032
+t1395503628
+s50
+
+CBuild AST from /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/ALMAppDelegate.m
+r0
+
+CBuild AST from /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/Controllers/ALMAdvertiserViewController.m
+r0
+
+CBuild AST from /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/Controllers/ALMQuestionViewController.m
+r0
+
+CBuild AST from /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/Controllers/ALMViewController.m
+r0
+
+CBuild AST from /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/Libraries/ABFBeacon/ABFBeacon.m
+r0
+
+CBuild AST from /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/Libraries/ABFBeacon/ABFBeaconRegion.m
+r0
+
+CBuild AST from /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/Models/ALMCentralManager.m
+r0
+
+CBuild AST from /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/Models/ALMPeripheralManager.m
+r0
+
+CBuild AST from /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/Views/ALMStartView.m
+r0
+
+CBuild AST from /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies2a381886f0ddb841^79582886f0ddb841^---0#1#1#--18"Check dependencies36"2A7C90AF-1306-4A65-A9F6-9FF927920B70-
+
+CCompileAssetCatalog /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Products/Debug-iphonesimulator/AwesomeLightningMachikon.app /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/Images.xcassets
+s417198214.942255
+e417198217.189156
+r1
+xCompileAssetCatalog
+x/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Products/Debug-iphonesimulator/AwesomeLightningMachikon.app
+x/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/Images.xcassets
+o/* com.apple.actool.compilation-results */
+o/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Products/Debug-iphonesimulator/AwesomeLightningMachikon.app/LaunchImage-700-568h@2x.png
+o/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Products/Debug-iphonesimulator/AwesomeLightningMachikon.app/Assets.car
+o/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/assetcatalog_generated_info.plist
+o
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection126"CompileAssetCatalog Build/Products/Debug-iphonesimulator/AwesomeLightningMachikon.app AwesomeLightningMachikon/Images.xcassets126"CompileAssetCatalog Build/Products/Debug-iphonesimulator/AwesomeLightningMachikon.app AwesomeLightningMachikon/Images.xcassets2f51f186f0ddb841^726d3089f0ddb841^-566"/* com.apple.actool.compilation-results *//Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Products/Debug-iphonesimulator/AwesomeLightningMachikon.app/LaunchImage-700-568h@2x.png/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Products/Debug-iphonesimulator/AwesomeLightningMachikon.app/Assets.car/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/assetcatalog_generated_info.plist-0#0#1#-19%DVTDocumentLocation2@119"file:///Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/Images.xcassets/0000000000000000^1434"CompileAssetCatalog Build/Products/Debug-iphonesimulator/AwesomeLightningMachikon.app AwesomeLightningMachikon/Images.xcassets    cd /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/actool --output-format human-readable-text --notices --warnings --export-dependency-info /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/assetcatalog_dependencies.txt --output-partial-info-plist /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/assetcatalog_generated_info.plist --app-icon AppIcon --launch-image LaunchImage --platform iphonesimulator --minimum-deployment-target 7.0 --target-device iphone --compress-pngs --compile /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Products/Debug-iphonesimulator/AwesomeLightningMachikon.app /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/Images.xcassets36"89CBE59B-3C24-44B2-8D35-9B325C840DBE-
+b36729FD1-E779-490F-926F-73D4DD012323
+
+CCompileC Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/Objects-normal/i386/ABFBeacon.o /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/Libraries/ABFBeacon/ABFBeacon.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s417198214.244261
+e417198214.442232
+r1
+xCompileC
+xBuild/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/Objects-normal/i386/ABFBeacon.o
+x/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/Libraries/ABFBeacon/ABFBeacon.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/Libraries/ABFBeacon/ABFBeacon.m
+d/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/Libraries/ABFBeacon/ABFBeacon.h
+d/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/Libraries/ABFBeacon/ABFBeaconRegion.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection135"Compile /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/Libraries/ABFBeacon/ABFBeacon.m269"CompileC Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/Objects-normal/i386/ABFBeacon.o AwesomeLightningMachikon/Libraries/ABFBeacon/ABFBeacon.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler28f03e86f0ddb841^577a7186f0ddb841^---0#0#1#-19%DVTDocumentLocation2@134"file:///Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/Libraries/ABFBeacon/ABFBeacon.m0000000000000000^4881"CompileC Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/Objects-normal/i386/ABFBeacon.o AwesomeLightningMachikon/Libraries/ABFBeacon/ABFBeacon.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/yamamoto/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/AwesomeLightningMachikon-generated-files.hmap -I/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/AwesomeLightningMachikon-own-target-headers.hmap -I/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/AwesomeLightningMachikon-all-target-headers.hmap -iquote /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/AwesomeLightningMachikon-project-headers.hmap -I/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Products/Debug-iphonesimulator/include -I/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Pods/Headers -I/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Pods/Headers/AFNetworking -I/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/DerivedSources/i386 -I/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/DerivedSources -F/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Products/Debug-iphonesimulator -isystem/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Pods/Headers -isystem/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Pods/Headers/AFNetworking -include /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/PrecompiledHeaders/AwesomeLightningMachikon-Prefix-flyacvswwjckrdeuuhoeiqzvrmnr/AwesomeLightningMachikon-Prefix.pch -MMD -MT dependencies -MF /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/Objects-normal/i386/ABFBeacon.d --serialize-diagnostics /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/Objects-normal/i386/ABFBeacon.dia -c /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/Libraries/ABFBeacon/ABFBeacon.m -o /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/Objects-normal/i386/ABFBeacon.o36"5FB482D1-F82A-446B-9D18-349257666445-
+b36729FD1-E779-490F-926F-73D4DD012323
+
+CCompileC Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/Objects-normal/i386/ABFBeaconRegion.o /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/Libraries/ABFBeacon/ABFBeaconRegion.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s417198214.442577
+e417198214.515166
+r1
+xCompileC
+xBuild/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/Objects-normal/i386/ABFBeaconRegion.o
+x/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/Libraries/ABFBeacon/ABFBeaconRegion.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/Libraries/ABFBeacon/ABFBeaconRegion.m
+d/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/Libraries/ABFBeacon/ABFBeaconRegion.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection141"Compile /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/Libraries/ABFBeacon/ABFBeaconRegion.m281"CompileC Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/Objects-normal/i386/ABFBeaconRegion.o AwesomeLightningMachikon/Libraries/ABFBeacon/ABFBeaconRegion.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilera3787186f0ddb841^a6d68386f0ddb841^---0#0#1#-19%DVTDocumentLocation2@140"file:///Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/Libraries/ABFBeacon/ABFBeaconRegion.m0000000000000000^4917"CompileC Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/Objects-normal/i386/ABFBeaconRegion.o AwesomeLightningMachikon/Libraries/ABFBeacon/ABFBeaconRegion.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/yamamoto/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/AwesomeLightningMachikon-generated-files.hmap -I/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/AwesomeLightningMachikon-own-target-headers.hmap -I/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/AwesomeLightningMachikon-all-target-headers.hmap -iquote /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/AwesomeLightningMachikon-project-headers.hmap -I/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Products/Debug-iphonesimulator/include -I/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Pods/Headers -I/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Pods/Headers/AFNetworking -I/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/DerivedSources/i386 -I/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/DerivedSources -F/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Products/Debug-iphonesimulator -isystem/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Pods/Headers -isystem/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Pods/Headers/AFNetworking -include /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/PrecompiledHeaders/AwesomeLightningMachikon-Prefix-flyacvswwjckrdeuuhoeiqzvrmnr/AwesomeLightningMachikon-Prefix.pch -MMD -MT dependencies -MF /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/Objects-normal/i386/ABFBeaconRegion.d --serialize-diagnostics /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/Objects-normal/i386/ABFBeaconRegion.dia -c /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/Libraries/ABFBeacon/ABFBeaconRegion.m -o /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/Objects-normal/i386/ABFBeaconRegion.o36"700EC5F9-44DE-4963-81DD-3580EB22030F-
+b36729FD1-E779-490F-926F-73D4DD012323
+
+CCompileC Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/Objects-normal/i386/ALMAdvertiserViewController.o /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/Controllers/ALMAdvertiserViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s417198214.357536
+e417198214.476920
+r1
+xCompileC
+xBuild/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/Objects-normal/i386/ALMAdvertiserViewController.o
+x/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/Controllers/ALMAdvertiserViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/Controllers/ALMAdvertiserViewController.m
+d/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/Controllers/ALMAdvertiserViewController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection145"Compile /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/Controllers/ALMAdvertiserViewController.m297"CompileC Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/Objects-normal/i386/ALMAdvertiserViewController.o AwesomeLightningMachikon/Controllers/ALMAdvertiserViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerd1b15b86f0ddb841^05187a86f0ddb841^---0#0#1#-19%DVTDocumentLocation2@144"file:///Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/Controllers/ALMAdvertiserViewController.m0000000000000000^4973"CompileC Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/Objects-normal/i386/ALMAdvertiserViewController.o AwesomeLightningMachikon/Controllers/ALMAdvertiserViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/yamamoto/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/AwesomeLightningMachikon-generated-files.hmap -I/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/AwesomeLightningMachikon-own-target-headers.hmap -I/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/AwesomeLightningMachikon-all-target-headers.hmap -iquote /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/AwesomeLightningMachikon-project-headers.hmap -I/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Products/Debug-iphonesimulator/include -I/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Pods/Headers -I/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Pods/Headers/AFNetworking -I/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/DerivedSources/i386 -I/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/DerivedSources -F/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Products/Debug-iphonesimulator -isystem/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Pods/Headers -isystem/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Pods/Headers/AFNetworking -include /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/PrecompiledHeaders/AwesomeLightningMachikon-Prefix-flyacvswwjckrdeuuhoeiqzvrmnr/AwesomeLightningMachikon-Prefix.pch -MMD -MT dependencies -MF /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/Objects-normal/i386/ALMAdvertiserViewController.d --serialize-diagnostics /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/Objects-normal/i386/ALMAdvertiserViewController.dia -c /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/Controllers/ALMAdvertiserViewController.m -o /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/Objects-normal/i386/ALMAdvertiserViewController.o36"C8BFE037-8770-48B1-832A-96865254D8EE-
+b36729FD1-E779-490F-926F-73D4DD012323
+
+CCompileC Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/Objects-normal/i386/ALMAppDelegate.o /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/ALMAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s417198214.422277
+e417198214.559513
+r1
+xCompileC
+xBuild/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/Objects-normal/i386/ALMAppDelegate.o
+x/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/ALMAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/ALMAppDelegate.m
+d/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/ALMAppDelegate.h
+d/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/Models/ALMCentralManager.h
+d/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/Models/ALMPeripheralManager.h
+o/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/ALMAppDelegate.m:18:24: warning: unused variable 'centralManager' [-Wunused-variable]
+o    ALMCentralManager *centralManager = [ALMCentralManager sharedManager];
+o                       ^
+o1 warning generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection120"Compile /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/ALMAppDelegate.m259"CompileC Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/Objects-normal/i386/ALMAppDelegate.o AwesomeLightningMachikon/ALMAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compileraa456c86f0ddb841^1d3c8f86f0ddb841^-303"/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/ALMAppDelegate.m:18:24: warning: unused variable 'centralManager' [-Wunused-variable]    ALMCentralManager *centralManager = [ALMCentralManager sharedManager];                       ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@32"Unused variable 'centralManager'-417198214#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@119"file:///Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/ALMAppDelegate.m0000000000000000^17#23#17#23#434#0#19"Unused Entity Issue--0#0#1#-19%DVTDocumentLocation4@119"file:///Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/ALMAppDelegate.m0000000000000000^4871"CompileC Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/Objects-normal/i386/ALMAppDelegate.o AwesomeLightningMachikon/ALMAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/yamamoto/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/AwesomeLightningMachikon-generated-files.hmap -I/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/AwesomeLightningMachikon-own-target-headers.hmap -I/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/AwesomeLightningMachikon-all-target-headers.hmap -iquote /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/AwesomeLightningMachikon-project-headers.hmap -I/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Products/Debug-iphonesimulator/include -I/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Pods/Headers -I/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Pods/Headers/AFNetworking -I/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/DerivedSources/i386 -I/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/DerivedSources -F/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Products/Debug-iphonesimulator -isystem/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Pods/Headers -isystem/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Pods/Headers/AFNetworking -include /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/PrecompiledHeaders/AwesomeLightningMachikon-Prefix-flyacvswwjckrdeuuhoeiqzvrmnr/AwesomeLightningMachikon-Prefix.pch -MMD -MT dependencies -MF /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/Objects-normal/i386/ALMAppDelegate.d --serialize-diagnostics /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/Objects-normal/i386/ALMAppDelegate.dia -c /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/ALMAppDelegate.m -o /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/Objects-normal/i386/ALMAppDelegate.o36"5ED55522-A1FF-45DE-86DC-F1662CC8C24E-
+b36729FD1-E779-490F-926F-73D4DD012323
+
+CCompileC Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/Objects-normal/i386/ALMCentralManager.o /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/Models/ALMCentralManager.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s417198214.369494
+e417198214.490164
+r1
+xCompileC
+xBuild/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/Objects-normal/i386/ALMCentralManager.o
+x/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/Models/ALMCentralManager.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/Models/ALMCentralManager.m
+d/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/Models/ALMCentralManager.h
+d/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/Libraries/ABFBeacon/ABFBeacon.h
+d/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/Libraries/ABFBeacon/ABFBeaconRegion.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection130"Compile /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/Models/ALMCentralManager.m272"CompileC Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/Objects-normal/i386/ALMCentralManager.o AwesomeLightningMachikon/Models/ALMCentralManager.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler61c45e86f0ddb841^247e7d86f0ddb841^---0#0#1#-19%DVTDocumentLocation2@129"file:///Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/Models/ALMCentralManager.m0000000000000000^4903"CompileC Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/Objects-normal/i386/ALMCentralManager.o AwesomeLightningMachikon/Models/ALMCentralManager.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/yamamoto/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/AwesomeLightningMachikon-generated-files.hmap -I/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/AwesomeLightningMachikon-own-target-headers.hmap -I/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/AwesomeLightningMachikon-all-target-headers.hmap -iquote /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/AwesomeLightningMachikon-project-headers.hmap -I/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Products/Debug-iphonesimulator/include -I/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Pods/Headers -I/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Pods/Headers/AFNetworking -I/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/DerivedSources/i386 -I/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/DerivedSources -F/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Products/Debug-iphonesimulator -isystem/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Pods/Headers -isystem/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Pods/Headers/AFNetworking -include /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/PrecompiledHeaders/AwesomeLightningMachikon-Prefix-flyacvswwjckrdeuuhoeiqzvrmnr/AwesomeLightningMachikon-Prefix.pch -MMD -MT dependencies -MF /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/Objects-normal/i386/ALMCentralManager.d --serialize-diagnostics /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/Objects-normal/i386/ALMCentralManager.dia -c /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/Models/ALMCentralManager.m -o /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/Objects-normal/i386/ALMCentralManager.o36"517E1B8F-CFC9-4498-B2C7-FE4D2CB72042-
+b36729FD1-E779-490F-926F-73D4DD012323
+
+CCompileC Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/Objects-normal/i386/ALMPeripheralManager.o /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/Models/ALMPeripheralManager.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s417198214.242426
+e417198214.365269
+r1
+xCompileC
+xBuild/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/Objects-normal/i386/ALMPeripheralManager.o
+x/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/Models/ALMPeripheralManager.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/Models/ALMPeripheralManager.m
+d/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/Models/ALMPeripheralManager.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection133"Compile /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/Models/ALMPeripheralManager.m278"CompileC Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/Objects-normal/i386/ALMPeripheralManager.o AwesomeLightningMachikon/Models/ALMPeripheralManager.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler8b373e86f0ddb841^dc825d86f0ddb841^---0#0#1#-19%DVTDocumentLocation2@132"file:///Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/Models/ALMPeripheralManager.m0000000000000000^4921"CompileC Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/Objects-normal/i386/ALMPeripheralManager.o AwesomeLightningMachikon/Models/ALMPeripheralManager.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/yamamoto/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/AwesomeLightningMachikon-generated-files.hmap -I/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/AwesomeLightningMachikon-own-target-headers.hmap -I/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/AwesomeLightningMachikon-all-target-headers.hmap -iquote /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/AwesomeLightningMachikon-project-headers.hmap -I/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Products/Debug-iphonesimulator/include -I/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Pods/Headers -I/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Pods/Headers/AFNetworking -I/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/DerivedSources/i386 -I/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/DerivedSources -F/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Products/Debug-iphonesimulator -isystem/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Pods/Headers -isystem/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Pods/Headers/AFNetworking -include /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/PrecompiledHeaders/AwesomeLightningMachikon-Prefix-flyacvswwjckrdeuuhoeiqzvrmnr/AwesomeLightningMachikon-Prefix.pch -MMD -MT dependencies -MF /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/Objects-normal/i386/ALMPeripheralManager.d --serialize-diagnostics /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/Objects-normal/i386/ALMPeripheralManager.dia -c /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/Models/ALMPeripheralManager.m -o /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/Objects-normal/i386/ALMPeripheralManager.o36"8D6BF39B-83C0-4701-9614-3D6297853384-
+b36729FD1-E779-490F-926F-73D4DD012323
+
+CCompileC Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/Objects-normal/i386/ALMQuestionViewController.o /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/Controllers/ALMQuestionViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s417198214.477765
+e417198214.611558
+r1
+xCompileC
+xBuild/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/Objects-normal/i386/ALMQuestionViewController.o
+x/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/Controllers/ALMQuestionViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/Controllers/ALMQuestionViewController.m
+d/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/Controllers/ALMQuestionViewController.h
+d/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/Controllers/ALMAdvertiserViewController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection143"Compile /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/Controllers/ALMQuestionViewController.m293"CompileC Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/Objects-normal/i386/ALMQuestionViewController.o AwesomeLightningMachikon/Controllers/ALMQuestionViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerb4777a86f0ddb841^a88f9c86f0ddb841^---0#0#1#-19%DVTDocumentLocation2@142"file:///Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/Controllers/ALMQuestionViewController.m0000000000000000^4961"CompileC Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/Objects-normal/i386/ALMQuestionViewController.o AwesomeLightningMachikon/Controllers/ALMQuestionViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/yamamoto/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/AwesomeLightningMachikon-generated-files.hmap -I/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/AwesomeLightningMachikon-own-target-headers.hmap -I/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/AwesomeLightningMachikon-all-target-headers.hmap -iquote /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/AwesomeLightningMachikon-project-headers.hmap -I/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Products/Debug-iphonesimulator/include -I/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Pods/Headers -I/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Pods/Headers/AFNetworking -I/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/DerivedSources/i386 -I/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/DerivedSources -F/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Products/Debug-iphonesimulator -isystem/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Pods/Headers -isystem/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Pods/Headers/AFNetworking -include /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/PrecompiledHeaders/AwesomeLightningMachikon-Prefix-flyacvswwjckrdeuuhoeiqzvrmnr/AwesomeLightningMachikon-Prefix.pch -MMD -MT dependencies -MF /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/Objects-normal/i386/ALMQuestionViewController.d --serialize-diagnostics /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/Objects-normal/i386/ALMQuestionViewController.dia -c /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/Controllers/ALMQuestionViewController.m -o /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/Objects-normal/i386/ALMQuestionViewController.o36"6C3EE7EC-F559-44C6-86F2-D53D0D6F4F32-
+b36729FD1-E779-490F-926F-73D4DD012323
+
+CCompileC Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/Objects-normal/i386/ALMStartView.o /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/Views/ALMStartView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s417198214.242913
+e417198214.356332
+r1
+xCompileC
+xBuild/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/Objects-normal/i386/ALMStartView.o
+x/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/Views/ALMStartView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/Views/ALMStartView.m
+d/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/Views/ALMStartView.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection124"Compile /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/Views/ALMStartView.m261"CompileC Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/Objects-normal/i386/ALMStartView.o AwesomeLightningMachikon/Views/ALMStartView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerc2513e86f0ddb841^7e395b86f0ddb841^---0#0#1#-19%DVTDocumentLocation2@123"file:///Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/Views/ALMStartView.m0000000000000000^4871"CompileC Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/Objects-normal/i386/ALMStartView.o AwesomeLightningMachikon/Views/ALMStartView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/yamamoto/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/AwesomeLightningMachikon-generated-files.hmap -I/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/AwesomeLightningMachikon-own-target-headers.hmap -I/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/AwesomeLightningMachikon-all-target-headers.hmap -iquote /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/AwesomeLightningMachikon-project-headers.hmap -I/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Products/Debug-iphonesimulator/include -I/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Pods/Headers -I/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Pods/Headers/AFNetworking -I/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/DerivedSources/i386 -I/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/DerivedSources -F/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Products/Debug-iphonesimulator -isystem/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Pods/Headers -isystem/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Pods/Headers/AFNetworking -include /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/PrecompiledHeaders/AwesomeLightningMachikon-Prefix-flyacvswwjckrdeuuhoeiqzvrmnr/AwesomeLightningMachikon-Prefix.pch -MMD -MT dependencies -MF /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/Objects-normal/i386/ALMStartView.d --serialize-diagnostics /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/Objects-normal/i386/ALMStartView.dia -c /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/Views/ALMStartView.m -o /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/Objects-normal/i386/ALMStartView.o36"0E5F194F-3145-4D3A-9380-1CD4F703283A-
+b36729FD1-E779-490F-926F-73D4DD012323
+
+CCompileC Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/Objects-normal/i386/ALMViewController.o /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/Controllers/ALMViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s417198214.297018
+e417198214.420685
+r1
+xCompileC
+xBuild/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/Objects-normal/i386/ALMViewController.o
+x/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/Controllers/ALMViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/Controllers/ALMViewController.m
+d/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/Controllers/ALMViewController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection135"Compile /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/Controllers/ALMViewController.m277"CompileC Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/Objects-normal/i386/ALMViewController.o AwesomeLightningMachikon/Controllers/ALMViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler98324c86f0ddb841^79b26b86f0ddb841^---0#0#1#-19%DVTDocumentLocation2@134"file:///Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/Controllers/ALMViewController.m0000000000000000^4913"CompileC Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/Objects-normal/i386/ALMViewController.o AwesomeLightningMachikon/Controllers/ALMViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/yamamoto/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/AwesomeLightningMachikon-generated-files.hmap -I/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/AwesomeLightningMachikon-own-target-headers.hmap -I/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/AwesomeLightningMachikon-all-target-headers.hmap -iquote /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/AwesomeLightningMachikon-project-headers.hmap -I/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Products/Debug-iphonesimulator/include -I/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Pods/Headers -I/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Pods/Headers/AFNetworking -I/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/DerivedSources/i386 -I/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/DerivedSources -F/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Products/Debug-iphonesimulator -isystem/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Pods/Headers -isystem/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Pods/Headers/AFNetworking -include /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/PrecompiledHeaders/AwesomeLightningMachikon-Prefix-flyacvswwjckrdeuuhoeiqzvrmnr/AwesomeLightningMachikon-Prefix.pch -MMD -MT dependencies -MF /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/Objects-normal/i386/ALMViewController.d --serialize-diagnostics /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/Objects-normal/i386/ALMViewController.dia -c /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/Controllers/ALMViewController.m -o /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/Objects-normal/i386/ALMViewController.o36"80BFBD50-20B5-4975-80F4-F47C6C33FDAC-
+b36729FD1-E779-490F-926F-73D4DD012323
+
+CCompileC Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/Objects-normal/i386/main.o /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s417198214.243386
+e417198214.296668
+r1
+xCompileC
+xBuild/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/Objects-normal/i386/main.o
+x/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/main.m
+d/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/ALMAppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Compile /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/main.m239"CompileC Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/Objects-normal/i386/main.o AwesomeLightningMachikon/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerb1873e86f0ddb841^e1d44b86f0ddb841^---0#0#1#-19%DVTDocumentLocation2@109"file:///Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/main.m0000000000000000^4811"CompileC Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/Objects-normal/i386/main.o AwesomeLightningMachikon/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/yamamoto/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/AwesomeLightningMachikon-generated-files.hmap -I/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/AwesomeLightningMachikon-own-target-headers.hmap -I/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/AwesomeLightningMachikon-all-target-headers.hmap -iquote /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/AwesomeLightningMachikon-project-headers.hmap -I/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Products/Debug-iphonesimulator/include -I/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Pods/Headers -I/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Pods/Headers/AFNetworking -I/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/DerivedSources/i386 -I/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/DerivedSources -F/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Products/Debug-iphonesimulator -isystem/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Pods/Headers -isystem/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Pods/Headers/AFNetworking -include /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/PrecompiledHeaders/AwesomeLightningMachikon-Prefix-flyacvswwjckrdeuuhoeiqzvrmnr/AwesomeLightningMachikon-Prefix.pch -MMD -MT dependencies -MF /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/Objects-normal/i386/main.dia -c /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/main.m -o /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/Objects-normal/i386/main.o36"9BAB4F20-28AA-472E-B50C-753B5AA1A4C8-
+b36729FD1-E779-490F-926F-73D4DD012323
+
+CCompileStoryboard /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/Base.lproj/Main.storyboard
+s417198214.922725
+e417198218.790259
+r1
+xCompileStoryboard
+x/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/Base.lproj/Main.storyboard
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"CompileStoryboard AwesomeLightningMachikon/Base.lproj/Main.storyboard69"CompileStoryboard AwesomeLightningMachikon/Base.lproj/Main.storyboardb14fec86f0ddb841^124fca8af0ddb841^---0#0#1#-19%DVTDocumentLocation2@129"file:///Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/Base.lproj/Main.storyboard0000000000000000^986"CompileStoryboard AwesomeLightningMachikon/Base.lproj/Main.storyboard    cd /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon    setenv IBSC_MINIMUM_COMPATIBILITY_VERSION 7.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 7.0 --output-format human-readable-text --compile /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Products/Debug-iphonesimulator/AwesomeLightningMachikon.app/Base.lproj/Main.storyboardc /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/Base.lproj/Main.storyboard36"3C652200-A94D-4FFD-90FB-5060C729306F-
+b36729FD1-E779-490F-926F-73D4DD012323
+
+CCopyPlistFile /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Products/Debug-iphonesimulator/AwesomeLightningMachikon.app/ALMAnswers.plist AwesomeLightningMachikon/Models/ALMAnswers.plist
+s417198214.940617
+e417198214.942043
+r1
+xCopyPlistFile
+x/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Products/Debug-iphonesimulator/AwesomeLightningMachikon.app/ALMAnswers.plist
+xAwesomeLightningMachikon/Models/ALMAnswers.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"Copy AwesomeLightningMachikon/Models/ALMAnswers.plist145"CopyPlistFile Build/Products/Debug-iphonesimulator/AwesomeLightningMachikon.app/ALMAnswers.plist AwesomeLightningMachikon/Models/ALMAnswers.plist50e1f086f0ddb841^4e2bf186f0ddb841^---0#0#1#-19%DVTDocumentLocation2@126"file:///Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/Models/ALMAnswers.plist0000000000000000^657"CopyPlistFile Build/Products/Debug-iphonesimulator/AwesomeLightningMachikon.app/ALMAnswers.plist AwesomeLightningMachikon/Models/ALMAnswers.plist    cd /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyPlist --convert binary1 --outdir /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Products/Debug-iphonesimulator/AwesomeLightningMachikon.app -- AwesomeLightningMachikon/Models/ALMAnswers.plist36"C9431998-A073-419A-AEF4-1FC0C19529D4-
+b36729FD1-E779-490F-926F-73D4DD012323
+
+CCopyPlistFile /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Products/Debug-iphonesimulator/AwesomeLightningMachikon.app/ALMQuestions.plist AwesomeLightningMachikon/Models/ALMQuestions.plist
+s417198214.921412
+e417198214.940436
+r1
+xCopyPlistFile
+x/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Products/Debug-iphonesimulator/AwesomeLightningMachikon.app/ALMQuestions.plist
+xAwesomeLightningMachikon/Models/ALMQuestions.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Copy AwesomeLightningMachikon/Models/ALMQuestions.plist149"CopyPlistFile Build/Products/Debug-iphonesimulator/AwesomeLightningMachikon.app/ALMQuestions.plist AwesomeLightningMachikon/Models/ALMQuestions.plistfaf2ee86f0ddb841^69c8f086f0ddb841^---0#0#1#-19%DVTDocumentLocation2@128"file:///Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/Models/ALMQuestions.plist0000000000000000^663"CopyPlistFile Build/Products/Debug-iphonesimulator/AwesomeLightningMachikon.app/ALMQuestions.plist AwesomeLightningMachikon/Models/ALMQuestions.plist    cd /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyPlist --convert binary1 --outdir /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Products/Debug-iphonesimulator/AwesomeLightningMachikon.app -- AwesomeLightningMachikon/Models/ALMQuestions.plist36"299A73F2-C9A1-412C-A7B4-DF65D2BC87DD-
+b36729FD1-E779-490F-926F-73D4DD012323
+
+CCopyStringsFile /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Products/Debug-iphonesimulator/AwesomeLightningMachikon.app/en.lproj/InfoPlist.strings AwesomeLightningMachikon/en.lproj/InfoPlist.strings
+s417198214.921771
+e417198214.940353
+r1
+xCopyStringsFile
+x/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Products/Debug-iphonesimulator/AwesomeLightningMachikon.app/en.lproj/InfoPlist.strings
+xAwesomeLightningMachikon/en.lproj/InfoPlist.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Copy AwesomeLightningMachikon/en.lproj/InfoPlist.strings160"CopyStringsFile Build/Products/Debug-iphonesimulator/AwesomeLightningMachikon.app/en.lproj/InfoPlist.strings AwesomeLightningMachikon/en.lproj/InfoPlist.strings2c28ec86f0ddb841^49bcf086f0ddb841^---0#0#1#-19%DVTDocumentLocation2@129"file:///Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/en.lproj/InfoPlist.strings0000000000000000^725"CopyStringsFile Build/Products/Debug-iphonesimulator/AwesomeLightningMachikon.app/en.lproj/InfoPlist.strings AwesomeLightningMachikon/en.lproj/InfoPlist.strings    cd /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Products/Debug-iphonesimulator/AwesomeLightningMachikon.app/en.lproj -- AwesomeLightningMachikon/en.lproj/InfoPlist.strings36"6C175964-A4F1-4AC2-889D-038B8ADF51DD-
+b36729FD1-E779-490F-926F-73D4DD012323
+
+CCpResource Podfile Build/Products/Debug-iphonesimulator/AwesomeLightningMachikon.app/Podfile
+s417198214.921553
+e417198214.943399
+r1
+xCpResource
+xPodfile
+xBuild/Products/Debug-iphonesimulator/AwesomeLightningMachikon.app/Podfile
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Copy Build/Products/Debug-iphonesimulator/AwesomeLightningMachikon.app/Podfile92"CpResource Podfile Build/Products/Debug-iphonesimulator/AwesomeLightningMachikon.app/Podfileb5fcf086f0ddb841^3c88f186f0ddb841^---0#0#1#-19%DVTDocumentLocation2@151"file:///Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Products/Debug-iphonesimulator/AwesomeLightningMachikon.app/Podfile0034f08cdfffdf42^694"CpResource Podfile Build/Products/Debug-iphonesimulator/AwesomeLightningMachikon.app/Podfile    cd /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Podfile /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Products/Debug-iphonesimulator/AwesomeLightningMachikon.app36"A02FC9A9-3D58-45A5-8753-7C29F249C5A8-
+b36729FD1-E779-490F-926F-73D4DD012323
+
+CGenerateDSYMFile /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Products/Debug-iphonesimulator/AwesomeLightningMachikon.app.dSYM /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Products/Debug-iphonesimulator/AwesomeLightningMachikon.app/AwesomeLightningMachikon
+s417198218.823039
+e417198218.937776
+r1
+xGenerateDSYMFile
+x/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Products/Debug-iphonesimulator/AwesomeLightningMachikon.app.dSYM
+x/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Products/Debug-iphonesimulator/AwesomeLightningMachikon.app/AwesomeLightningMachikon
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection150"Generate /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Products/Debug-iphonesimulator/AwesomeLightningMachikon.app.dSYM178"GenerateDSYMFile Build/Products/Debug-iphonesimulator/AwesomeLightningMachikon.app.dSYM Build/Products/Debug-iphonesimulator/AwesomeLightningMachikon.app/AwesomeLightningMachikoncb14d38af0ddb841^0e10f08af0ddb841^---0#0#1#-19%DVTDocumentLocation2@148"file:///Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Products/Debug-iphonesimulator/AwesomeLightningMachikon.app.dSYM0034f08cdfffdf42^859"GenerateDSYMFile Build/Products/Debug-iphonesimulator/AwesomeLightningMachikon.app.dSYM Build/Products/Debug-iphonesimulator/AwesomeLightningMachikon.app/AwesomeLightningMachikon    cd /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Products/Debug-iphonesimulator/AwesomeLightningMachikon.app/AwesomeLightningMachikon -o /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Products/Debug-iphonesimulator/AwesomeLightningMachikon.app.dSYM36"6349A06E-7B5E-420B-BCB7-4CA79C060998-
+b36729FD1-E779-490F-926F-73D4DD012323
+
+CLd /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Products/Debug-iphonesimulator/AwesomeLightningMachikon.app/AwesomeLightningMachikon normal i386
+s417198214.613102
+e417198214.920394
+r1
+xLd
+x/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Products/Debug-iphonesimulator/AwesomeLightningMachikon.app/AwesomeLightningMachikon
+xnormal
+xi386
+d/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/Objects-normal/i386/AwesomeLightningMachikon.LinkFileList
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/crt1.o
+d/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/Objects-normal/i386/ALMPeripheralManager.o
+d/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/Objects-normal/i386/ALMStartView.o
+d/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/Objects-normal/i386/main.o
+d/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/Objects-normal/i386/ABFBeacon.o
+d/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/Objects-normal/i386/ALMViewController.o
+d/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/Objects-normal/i386/ALMAdvertiserViewController.o
+d/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/Objects-normal/i386/ALMCentralManager.o
+d/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/Objects-normal/i386/ALMAppDelegate.o
+d/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/Objects-normal/i386/ABFBeaconRegion.o
+d/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/Objects-normal/i386/ALMQuestionViewController.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/Security.framework/Security
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Products/Debug-iphonesimulator/libPods.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreBluetooth.framework/CoreBluetooth
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_override.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcache_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcommonCrypto_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcompiler_rt_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcopyfile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libdyld_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libmacho_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libnotify_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libremovefile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libunwind_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libxpc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_asl.dylib
+d/usr/lib/libSystem.B.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/host/libdyld.dylib
+d/usr/lib/system/libcache.dylib
+d/usr/lib/system/libcommonCrypto.dylib
+d/usr/lib/system/libcompiler_rt.dylib
+d/usr/lib/system/libcopyfile.dylib
+d/usr/lib/system/libcorecrypto.dylib
+d/usr/lib/system/libkeymgr.dylib
+d/usr/lib/system/liblaunch.dylib
+d/usr/lib/system/libmacho.dylib
+d/usr/lib/system/libquarantine.dylib
+d/usr/lib/system/libremovefile.dylib
+d/usr/lib/system/libsystem_asl.dylib
+d/usr/lib/system/libsystem_blocks.dylib
+d/usr/lib/system/libsystem_c.dylib
+d/usr/lib/system/libsystem_configuration.dylib
+d/usr/lib/system/libsystem_dnssd.dylib
+d/usr/lib/system/libsystem_info.dylib
+d/usr/lib/system/libsystem_kernel.dylib
+d/usr/lib/system/libsystem_m.dylib
+d/usr/lib/system/libsystem_malloc.dylib
+d/usr/lib/system/libsystem_notify.dylib
+d/usr/lib/system/libsystem_platform.dylib
+d/usr/lib/system/libsystem_pthread.dylib
+d/usr/lib/system/libsystem_sandbox.dylib
+d/usr/lib/system/libunc.dylib
+d/usr/lib/system/libunwind.dylib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection166"Link /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Products/Debug-iphonesimulator/AwesomeLightningMachikon.app/AwesomeLightningMachikon105"Ld Build/Products/Debug-iphonesimulator/AwesomeLightningMachikon.app/AwesomeLightningMachikon normal i386340e9d86f0ddb841^51a0eb86f0ddb841^---0#0#1#--1869"Ld Build/Products/Debug-iphonesimulator/AwesomeLightningMachikon.app/AwesomeLightningMachikon normal i386    cd /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon    setenv IPHONEOS_DEPLOYMENT_TARGET 7.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -L/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Products/Debug-iphonesimulator -F/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Products/Debug-iphonesimulator -filelist /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/Objects-normal/i386/AwesomeLightningMachikon.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -ObjC -framework CoreGraphics -framework MobileCoreServices -framework Security -framework SystemConfiguration -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=7.0 -framework CoreGraphics -framework UIKit -framework Foundation -lPods -Xlinker -dependency_info -Xlinker /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/Objects-normal/i386/AwesomeLightningMachikon_dependency_info.dat -o /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Products/Debug-iphonesimulator/AwesomeLightningMachikon.app/AwesomeLightningMachikon36"7262B5F0-66AB-418D-9162-A5AE559081D6-
+b36729FD1-E779-490F-926F-73D4DD012323
+
+CPhaseScriptExecution Check\ Pods\ Manifest.lock /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/Script-C0255F9AA550438D8D4B7AC3.sh
+s417198214.159080
+e417198214.198575
+r1
+xPhaseScriptExecution
+xCheck Pods Manifest.lock
+x/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/Script-C0255F9AA550438D8D4B7AC3.sh
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Run custom shell script 'Check Pods Manifest.lock'186"PhaseScriptExecution Check\ Pods\ Manifest.lock Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/Script-C0255F9AA550438D8D4B7AC3.sh42222986f0ddb841^95d73286f0ddb841^---0#0#1#--490"PhaseScriptExecution Check\ Pods\ Manifest.lock Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/Script-C0255F9AA550438D8D4B7AC3.sh    cd /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon    /bin/sh -c /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/Script-C0255F9AA550438D8D4B7AC3.sh36"0CC683CE-DB1C-4486-8786-26CA519C5C27-
+b36729FD1-E779-490F-926F-73D4DD012323
+
+CPhaseScriptExecution Copy\ Pods\ Resources /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/Script-F1585997ABB745D0962388B1.sh
+s417198218.948643
+e417198220.875791
+r1
+xPhaseScriptExecution
+xCopy Pods Resources
+x/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/Script-F1585997ABB745D0962388B1.sh
+obuilding file list ... done
+o
+osent 29 bytes  received 20 bytes  98.00 bytes/sec
+ototal size is 0  speedup is 0.00
+o/* com.apple.actool.compilation-results */
+o/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Products/Debug-iphonesimulator/AwesomeLightningMachikon.app/Assets.car
+o
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Run custom shell script 'Copy Pods Resources'181"PhaseScriptExecution Copy\ Pods\ Resources Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/Script-F1585997ABB745D0962388B1.shee42f38af0ddb841^8f34e08cf0ddb841^-304"building file list ... donesent 29 bytes  received 20 bytes  98.00 bytes/sectotal size is 0  speedup is 0.00/* com.apple.actool.compilation-results *//Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Products/Debug-iphonesimulator/AwesomeLightningMachikon.app/Assets.car5(21%IDEActivityLogMessage2@28"building file list ... done-417198219#0#28#-0#-----2@50"sent 29 bytes  received 20 bytes  98.00 bytes/sec-417198219#29#50#-0#-----2@33"total size is 0  speedup is 0.00-417198219#79#33#-0#-----2@43"/* com.apple.actool.compilation-results */-417198220#112#43#-0#-----2@148"/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Products/Debug-iphonesimulator/AwesomeLightningMachikon.app/Assets.car-417198220#155#148#-0#-----0#0#1#--485"PhaseScriptExecution Copy\ Pods\ Resources Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/Script-F1585997ABB745D0962388B1.sh    cd /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon    /bin/sh -c /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/Script-F1585997ABB745D0962388B1.sh36"4962DD53-AC40-41F0-B30B-3FF2544EF4AD-
+b36729FD1-E779-490F-926F-73D4DD012323
+
+CProcessInfoPlistFile /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Products/Debug-iphonesimulator/AwesomeLightningMachikon.app/Info.plist /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/AwesomeLightningMachikon-Info.plist
+s417198218.795162
+e417198218.821154
+r1
+xProcessInfoPlistFile
+x/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Products/Debug-iphonesimulator/AwesomeLightningMachikon.app/Info.plist
+x/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/AwesomeLightningMachikon-Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection139"Process /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/AwesomeLightningMachikon-Info.plist158"ProcessInfoPlistFile Build/Products/Debug-iphonesimulator/AwesomeLightningMachikon.app/Info.plist AwesomeLightningMachikon/AwesomeLightningMachikon-Info.plistb709cf8af0ddb841^1138d28af0ddb841^---0#0#1#-19%DVTDocumentLocation2@138"file:///Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/AwesomeLightningMachikon-Info.plist0000000000000000^1195"ProcessInfoPlistFile Build/Products/Debug-iphonesimulator/AwesomeLightningMachikon.app/Info.plist AwesomeLightningMachikon/AwesomeLightningMachikon-Info.plist    cd /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/AwesomeLightningMachikon-Info.plist -genpkginfo /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Products/Debug-iphonesimulator/AwesomeLightningMachikon.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -additionalcontentfile /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/assetcatalog_generated_info.plist -o /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Products/Debug-iphonesimulator/AwesomeLightningMachikon.app/Info.plist36"B67142F7-DC84-412A-B8A3-19C1DE6DCC43-
+b36729FD1-E779-490F-926F-73D4DD012323
+
+CProcessPCH /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/PrecompiledHeaders/AwesomeLightningMachikon-Prefix-flyacvswwjckrdeuuhoeiqzvrmnr/AwesomeLightningMachikon-Prefix.pch.pch AwesomeLightningMachikon/AwesomeLightningMachikon-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s417198214.199379
+e417198214.241654
+r1
+xProcessPCH
+x/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/PrecompiledHeaders/AwesomeLightningMachikon-Prefix-flyacvswwjckrdeuuhoeiqzvrmnr/AwesomeLightningMachikon-Prefix.pch.pch
+xAwesomeLightningMachikon/AwesomeLightningMachikon-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/AwesomeLightningMachikon-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Precompile AwesomeLightningMachikon/AwesomeLightningMachikon-Prefix.pch279"ProcessPCH Build/Intermediates/PrecompiledHeaders/AwesomeLightningMachikon-Prefix-flyacvswwjckrdeuuhoeiqzvrmnr/AwesomeLightningMachikon-Prefix.pch.pch AwesomeLightningMachikon/AwesomeLightningMachikon-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerd5253386f0ddb841^adde3d86f0ddb841^---0#0#1#-19%DVTDocumentLocation2@138"file:///Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/AwesomeLightningMachikon-Prefix.pch0000000000000000^4694"ProcessPCH Build/Intermediates/PrecompiledHeaders/AwesomeLightningMachikon-Prefix-flyacvswwjckrdeuuhoeiqzvrmnr/AwesomeLightningMachikon-Prefix.pch.pch AwesomeLightningMachikon/AwesomeLightningMachikon-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/yamamoto/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/AwesomeLightningMachikon-generated-files.hmap -I/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/AwesomeLightningMachikon-own-target-headers.hmap -I/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/AwesomeLightningMachikon-all-target-headers.hmap -iquote /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/AwesomeLightningMachikon-project-headers.hmap -I/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Products/Debug-iphonesimulator/include -I/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Pods/Headers -I/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Pods/Headers/AFNetworking -I/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/DerivedSources/i386 -I/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/AwesomeLightningMachikon.build/Debug-iphonesimulator/AwesomeLightningMachikon.build/DerivedSources -F/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Products/Debug-iphonesimulator -isystem/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Pods/Headers -isystem/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Pods/Headers/AFNetworking --serialize-diagnostics /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/PrecompiledHeaders/AwesomeLightningMachikon-Prefix-flyacvswwjckrdeuuhoeiqzvrmnr/AwesomeLightningMachikon-Prefix.pch.dia -MMD -MT dependencies -MF /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/PrecompiledHeaders/AwesomeLightningMachikon-Prefix-flyacvswwjckrdeuuhoeiqzvrmnr/AwesomeLightningMachikon-Prefix.pch.d -c /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/AwesomeLightningMachikon/AwesomeLightningMachikon-Prefix.pch -o /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/PrecompiledHeaders/AwesomeLightningMachikon-Prefix-flyacvswwjckrdeuuhoeiqzvrmnr/AwesomeLightningMachikon-Prefix.pch.pch36"5B8728DE-2F6F-4915-9944-AB1EA8D2D344-
+b36729FD1-E779-490F-926F-73D4DD012323
+
+CProcessPCH /Users/yamamoto/Library/Developer/Xcode/DerivedData/AwesomeLightningMachikon-bqklywoidzcttsbeuppmamesuuci/Index/PrecompiledHeaders/AwesomeLightningMachikon-Prefix-aqxdtnlppfmnfjfwvxlnbpftzdnh_ast/AwesomeLightningMachikon-Prefix.pch.pch AwesomeLightningMachikon/AwesomeLightningMachikon-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CTouch /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Products/Debug-iphonesimulator/AwesomeLightningMachikon.app
+r0
+

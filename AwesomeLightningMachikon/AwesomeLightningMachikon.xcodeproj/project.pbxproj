@@ -10,10 +10,12 @@
 		405CA8F818DDAC8F0024D844 /* ALMStartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 405CA8F718DDAC8F0024D844 /* ALMStartView.m */; };
 		405CA8FF18DDCCC30024D844 /* ALMAnswers.plist in Resources */ = {isa = PBXBuildFile; fileRef = 405CA8FD18DDCCC30024D844 /* ALMAnswers.plist */; };
 		405CA90018DDCCC30024D844 /* ALMQuestions.plist in Resources */ = {isa = PBXBuildFile; fileRef = 405CA8FE18DDCCC30024D844 /* ALMQuestions.plist */; };
+		405CA90418DDE9840024D844 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 405CA90318DDE9840024D844 /* Podfile */; };
 		5A9F2A7918DDC49600448630 /* ALMPeripheralManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9F2A7818DDC49600448630 /* ALMPeripheralManager.m */; };
 		5AECDF3318DD9FFE0089F166 /* ABFBeacon.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AECDF3018DD9FFE0089F166 /* ABFBeacon.m */; };
 		5AECDF3418DD9FFE0089F166 /* ABFBeaconRegion.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AECDF3218DD9FFE0089F166 /* ABFBeaconRegion.m */; };
 		5AECDF3818DDA3240089F166 /* ALMCentralManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AECDF3718DDA3240089F166 /* ALMCentralManager.m */; };
+		BB413B54C9DF4D8CAACC6B18 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2051E6EF539E4338847D873C /* libPods.a */; };
 		FFDD267D18DD7DE000557A31 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFDD267C18DD7DE000557A31 /* Foundation.framework */; };
 		FFDD267F18DD7DE000557A31 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFDD267E18DD7DE000557A31 /* CoreGraphics.framework */; };
 		FFDD268118DD7DE000557A31 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFDD268018DD7DE000557A31 /* UIKit.framework */; };
@@ -43,10 +45,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2051E6EF539E4338847D873C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		405CA8F618DDAC8F0024D844 /* ALMStartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALMStartView.h; sourceTree = "<group>"; };
 		405CA8F718DDAC8F0024D844 /* ALMStartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALMStartView.m; sourceTree = "<group>"; };
 		405CA8FD18DDCCC30024D844 /* ALMAnswers.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ALMAnswers.plist; sourceTree = "<group>"; };
 		405CA8FE18DDCCC30024D844 /* ALMQuestions.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ALMQuestions.plist; sourceTree = "<group>"; };
+		405CA90318DDE9840024D844 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5A9F2A7718DDC49600448630 /* ALMPeripheralManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALMPeripheralManager.h; sourceTree = "<group>"; };
 		5A9F2A7818DDC49600448630 /* ALMPeripheralManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALMPeripheralManager.m; sourceTree = "<group>"; };
 		5AECDF2F18DD9FFE0089F166 /* ABFBeacon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABFBeacon.h; sourceTree = "<group>"; };
@@ -55,6 +59,7 @@
 		5AECDF3218DD9FFE0089F166 /* ABFBeaconRegion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABFBeaconRegion.m; sourceTree = "<group>"; };
 		5AECDF3618DDA3240089F166 /* ALMCentralManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALMCentralManager.h; sourceTree = "<group>"; };
 		5AECDF3718DDA3240089F166 /* ALMCentralManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALMCentralManager.m; sourceTree = "<group>"; };
+		6B8C9FD761014B389CAC6258 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		FFDD267918DD7DE000557A31 /* AwesomeLightningMachikon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AwesomeLightningMachikon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFDD267C18DD7DE000557A31 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FFDD267E18DD7DE000557A31 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -88,6 +93,7 @@
 				FFDD267F18DD7DE000557A31 /* CoreGraphics.framework in Frameworks */,
 				FFDD268118DD7DE000557A31 /* UIKit.framework in Frameworks */,
 				FFDD267D18DD7DE000557A31 /* Foundation.framework in Frameworks */,
+				BB413B54C9DF4D8CAACC6B18 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,6 +149,7 @@
 				FFDD26A118DD7DE000557A31 /* AwesomeLightningMachikonTests */,
 				FFDD267B18DD7DE000557A31 /* Frameworks */,
 				FFDD267A18DD7DE000557A31 /* Products */,
+				6B8C9FD761014B389CAC6258 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -162,6 +169,7 @@
 				FFDD267E18DD7DE000557A31 /* CoreGraphics.framework */,
 				FFDD268018DD7DE000557A31 /* UIKit.framework */,
 				FFDD269B18DD7DE000557A31 /* XCTest.framework */,
+				2051E6EF539E4338847D873C /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -185,6 +193,7 @@
 		FFDD268318DD7DE000557A31 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				405CA90318DDE9840024D844 /* Podfile */,
 				FFDD268418DD7DE000557A31 /* AwesomeLightningMachikon-Info.plist */,
 				FFDD268518DD7DE000557A31 /* InfoPlist.strings */,
 				FFDD268818DD7DE000557A31 /* main.m */,
@@ -240,9 +249,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FFDD26AB18DD7DE000557A31 /* Build configuration list for PBXNativeTarget "AwesomeLightningMachikon" */;
 			buildPhases = (
+				C0255F9AA550438D8D4B7AC3 /* Check Pods Manifest.lock */,
 				FFDD267518DD7DE000557A31 /* Sources */,
 				FFDD267618DD7DE000557A31 /* Frameworks */,
 				FFDD267718DD7DE000557A31 /* Resources */,
+				F1585997ABB745D0962388B1 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -312,6 +323,7 @@
 			files = (
 				405CA90018DDCCC30024D844 /* ALMQuestions.plist in Resources */,
 				FFDD269518DD7DE000557A31 /* Images.xcassets in Resources */,
+				405CA90418DDE9840024D844 /* Podfile in Resources */,
 				FFDD268718DD7DE000557A31 /* InfoPlist.strings in Resources */,
 				FFDD269018DD7DE000557A31 /* Main.storyboard in Resources */,
 				405CA8FF18DDCCC30024D844 /* ALMAnswers.plist in Resources */,
@@ -327,6 +339,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C0255F9AA550438D8D4B7AC3 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F1585997ABB745D0962388B1 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FFDD267518DD7DE000557A31 /* Sources */ = {
@@ -464,6 +509,7 @@
 		};
 		FFDD26AC18DD7DE000557A31 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B8C9FD761014B389CAC6258 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -477,6 +523,7 @@
 		};
 		FFDD26AD18DD7DE000557A31 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B8C9FD761014B389CAC6258 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;

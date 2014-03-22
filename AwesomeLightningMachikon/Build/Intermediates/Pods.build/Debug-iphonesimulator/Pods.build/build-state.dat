@@ -1,0 +1,88 @@
+TPods
+v6
+r1
+cCheck dependencies
+cCompileC /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/Pods-dummy.o /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Pods/Pods-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Products/Debug-iphonesimulator/libPods.a normal i386
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000526BC3400000000000A92BC0
+t1382794048
+s11086784
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk
+c0000000052822DDF0000000000000176
+t1384263135
+s374
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/SDKSettings.plist
+c00000000526BC35400000000000003B5
+t1382794068
+s949
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/CoreServices/SystemVersion.plist
+c00000000526BC35C00000000000001A0
+t1382794076
+s416
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/include/module.map
+c00000000526BC3920000000000000AC9
+t1382794130
+s2761
+
+N/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/Pods-dummy.o
+t1395505400
+s3416
+
+N/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/Pods.LinkFileList
+c00000000532DB8F700000000000000A8
+t1395505399
+s168
+
+N/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Products/Debug-iphonesimulator/libPods-AFNetworking.a
+c00000000532DB8F70000000000165430
+t1395505399
+s1463344
+
+N/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Products/Debug-iphonesimulator/libPods.a
+t1395505400
+s1466912
+
+N/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Pods/Pods-dummy.m
+c00000000532DB2590000000000000070
+t1395503705
+s112
+
+CBuild AST from /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Pods/Pods-dummy.m
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesc9c71686f0ddb841^28601786f0ddb841^---0#1#1#--18"Check dependencies36"D53158A4-2577-4CAB-8187-D3FC38B04F36-
+
+CCompileC /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/Pods-dummy.o /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Pods/Pods-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s417198199.807914
+e417198200.484815
+r1
+xCompileC
+x/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/Pods-dummy.o
+x/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Pods/Pods-dummy.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Pods/Pods-dummy.m
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Compile /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Pods/Pods-dummy.m257"CompileC /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/Pods-dummy.o Pods-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerc7f6ce77f0ddb841^fd309678f0ddb841^---0#0#1#-19%DVTDocumentLocation2@95"file:///Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Pods/Pods-dummy.m0000000000000000^4192"CompileC /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/Pods-dummy.o Pods-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Pods    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/yamamoto/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Pods-generated-files.hmap -I/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Pods-own-target-headers.hmap -I/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Pods-all-target-headers.hmap -iquote /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Pods-project-headers.hmap -I/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Products/Debug-iphonesimulator/include -I/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Pods/Pods/Headers -I/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Pods/Pods/Headers/AFNetworking -I/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/DerivedSources/i386 -I/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/DerivedSources -F/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Products/Debug-iphonesimulator -isystem/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Pods/Pods/Headers -isystem/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Pods/Pods/Headers/AFNetworking -MMD -MT dependencies -MF /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/Pods-dummy.d --serialize-diagnostics /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/Pods-dummy.dia -c /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Pods/Pods-dummy.m -o /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/Pods-dummy.o36"C0E53036-8692-46AB-B595-D64003462A52-
+b0A0B2AC1-5A21-4491-A072-B8D2FFFFB01D
+
+CLibtool /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Products/Debug-iphonesimulator/libPods.a normal i386
+s417198200.487053
+e417198200.589465
+r1
+xLibtool
+x/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Products/Debug-iphonesimulator/libPods.a
+xnormal
+xi386
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection137"Libtool /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Products/Debug-iphonesimulator/libPods.a normal i386137"Libtool /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Products/Debug-iphonesimulator/libPods.a normal i3869acc7c78f0ddb841^38c09878f0ddb841^---0#0#1#--1165"Libtool /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Products/Debug-iphonesimulator/libPods.a normal i386    cd /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Pods    setenv IPHONEOS_DEPLOYMENT_TARGET 7.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only i386 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -L/Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Products/Debug-iphonesimulator -filelist /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/Pods.LinkFileList -framework Foundation -lPods-AFNetworking -o /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Products/Debug-iphonesimulator/libPods.a36"FB7046FC-28ED-4E3E-86D6-C7535DB2BD55-
+b0A0B2AC1-5A21-4491-A072-B8D2FFFFB01D
+

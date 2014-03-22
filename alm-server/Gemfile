@@ -14,6 +14,10 @@ gem 'jbuilder'
 # Use puma as the app server
 gem 'puma'
 
+# manage configuration
+gem 'settingslogic'
+
+# High performance pure Ruby client for accessing memcached servers
 gem 'dalli'
 
 # iOS push notification

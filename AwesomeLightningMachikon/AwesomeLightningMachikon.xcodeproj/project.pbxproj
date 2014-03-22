@@ -7,10 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		405CA8F818DDAC8F0024D844 /* ALMStartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 405CA8F718DDAC8F0024D844 /* ALMStartView.m */; };
+		5A9F2A7918DDC49600448630 /* ALMPeripheralManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9F2A7818DDC49600448630 /* ALMPeripheralManager.m */; };
 		5AECDF3318DD9FFE0089F166 /* ABFBeacon.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AECDF3018DD9FFE0089F166 /* ABFBeacon.m */; };
 		5AECDF3418DD9FFE0089F166 /* ABFBeaconRegion.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AECDF3218DD9FFE0089F166 /* ABFBeaconRegion.m */; };
 		5AECDF3818DDA3240089F166 /* ALMCentralManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AECDF3718DDA3240089F166 /* ALMCentralManager.m */; };
-		405CA8F818DDAC8F0024D844 /* ALMStartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 405CA8F718DDAC8F0024D844 /* ALMStartView.m */; };
 		FFDD267D18DD7DE000557A31 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFDD267C18DD7DE000557A31 /* Foundation.framework */; };
 		FFDD267F18DD7DE000557A31 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFDD267E18DD7DE000557A31 /* CoreGraphics.framework */; };
 		FFDD268118DD7DE000557A31 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFDD268018DD7DE000557A31 /* UIKit.framework */; };
@@ -40,14 +41,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		405CA8F618DDAC8F0024D844 /* ALMStartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALMStartView.h; sourceTree = "<group>"; };
+		405CA8F718DDAC8F0024D844 /* ALMStartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALMStartView.m; sourceTree = "<group>"; };
+		5A9F2A7718DDC49600448630 /* ALMPeripheralManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALMPeripheralManager.h; sourceTree = "<group>"; };
+		5A9F2A7818DDC49600448630 /* ALMPeripheralManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALMPeripheralManager.m; sourceTree = "<group>"; };
 		5AECDF2F18DD9FFE0089F166 /* ABFBeacon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABFBeacon.h; sourceTree = "<group>"; };
 		5AECDF3018DD9FFE0089F166 /* ABFBeacon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABFBeacon.m; sourceTree = "<group>"; };
 		5AECDF3118DD9FFE0089F166 /* ABFBeaconRegion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABFBeaconRegion.h; sourceTree = "<group>"; };
 		5AECDF3218DD9FFE0089F166 /* ABFBeaconRegion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABFBeaconRegion.m; sourceTree = "<group>"; };
 		5AECDF3618DDA3240089F166 /* ALMCentralManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALMCentralManager.h; sourceTree = "<group>"; };
 		5AECDF3718DDA3240089F166 /* ALMCentralManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALMCentralManager.m; sourceTree = "<group>"; };
-		405CA8F618DDAC8F0024D844 /* ALMStartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALMStartView.h; sourceTree = "<group>"; };
-		405CA8F718DDAC8F0024D844 /* ALMStartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALMStartView.m; sourceTree = "<group>"; };
 		FFDD267918DD7DE000557A31 /* AwesomeLightningMachikon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AwesomeLightningMachikon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFDD267C18DD7DE000557A31 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FFDD267E18DD7DE000557A31 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -121,6 +124,8 @@
 			children = (
 				5AECDF3618DDA3240089F166 /* ALMCentralManager.h */,
 				5AECDF3718DDA3240089F166 /* ALMCentralManager.m */,
+				5A9F2A7718DDC49600448630 /* ALMPeripheralManager.h */,
+				5A9F2A7818DDC49600448630 /* ALMPeripheralManager.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -320,6 +325,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A9F2A7918DDC49600448630 /* ALMPeripheralManager.m in Sources */,
 				405CA8F818DDAC8F0024D844 /* ALMStartView.m in Sources */,
 				FFDD268918DD7DE000557A31 /* main.m in Sources */,
 				5AECDF3318DD9FFE0089F166 /* ABFBeacon.m in Sources */,

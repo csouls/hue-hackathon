@@ -1,5 +1,5 @@
 //
-//  ALMCentralManager.h
+//  ALMPeripheralManager.h
 //  AwesomeLightningMachikon
 //
 //  Created by Maezono Yusaku on 2014/03/22.
@@ -9,15 +9,15 @@
 #import <Foundation/Foundation.h>
 
 /**
- *  いわゆる受信側マネージャー(ACCESS社のソースをなんとなくラッピング)
+ *  いわゆる送信側マネージャー(クラスメソッド諏訪さんのソースをまるコピー)
  */
-@interface ALMCentralManager : NSObject
+@interface ALMPeripheralManager : NSObject
 
 /**
  *  シングルトンオブジェクトを返す
  *
  *  @return シングルトンオブジェクト
  */
-+ (ALMCentralManager *)sharedManager;
++ (ALMPeripheralManager *)sharedManager;
 
 @end

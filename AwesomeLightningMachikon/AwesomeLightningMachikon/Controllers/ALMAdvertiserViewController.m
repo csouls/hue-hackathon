@@ -6,6 +6,8 @@
 //  Copyright (c) 2014年 machikons. All rights reserved.
 //
 
+#import <AudioToolbox/AudioServices.h>
+
 #import "ALMAdvertiserViewController.h"
 #import "AFHTTPRequestOperationManager.h"
 
@@ -49,6 +51,8 @@
                                              userInfo:nil
                                               repeats:YES];
     [self post:postData];
+    [self sound];
+    AudioServicesPlaySystemSound(kSystemSoundID_Vibrate);
 }
 -(void)onTimer
 {
@@ -82,6 +86,16 @@
      } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
      NSLog(@"Error: %@", error);
      }];
+}
+
+-(void)sound
+{
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"warp1" ofType:@"mp3"];
+    NSURL *url = [NSURL fileURLWithPath:path];
+    audioPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:url error:nil];
+    audioPlayer.volume = 0.1;
+    [audioPlayer prepareToPlay];
+    [audioPlayer play];
 }
 /*
 #pragma mark - Navigation

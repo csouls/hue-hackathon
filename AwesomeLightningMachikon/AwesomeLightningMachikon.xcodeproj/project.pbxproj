@@ -14,6 +14,8 @@
 		409DB77D18DDFC0800C23A9C /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 409DB77C18DDFC0800C23A9C /* Security.framework */; };
 		409DB77F18DDFC1200C23A9C /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 409DB77E18DDFC1200C23A9C /* CFNetwork.framework */; };
 		409DB78118DDFC1D00C23A9C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 409DB78018DDFC1D00C23A9C /* SystemConfiguration.framework */; };
+		409DB78318DE063900C23A9C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 409DB78218DE063800C23A9C /* AVFoundation.framework */; };
+		409DB78518DE092F00C23A9C /* warp1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 409DB78418DE092F00C23A9C /* warp1.mp3 */; };
 		5A9F2A7918DDC49600448630 /* ALMPeripheralManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9F2A7818DDC49600448630 /* ALMPeripheralManager.m */; };
 		5AECDF3318DD9FFE0089F166 /* ABFBeacon.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AECDF3018DD9FFE0089F166 /* ABFBeacon.m */; };
 		5AECDF3418DD9FFE0089F166 /* ABFBeaconRegion.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AECDF3218DD9FFE0089F166 /* ABFBeaconRegion.m */; };
@@ -57,6 +59,8 @@
 		409DB77C18DDFC0800C23A9C /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		409DB77E18DDFC1200C23A9C /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		409DB78018DDFC1D00C23A9C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		409DB78218DE063800C23A9C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		409DB78418DE092F00C23A9C /* warp1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = warp1.mp3; path = AwesomeLightningMachikon/warp1.mp3; sourceTree = "<group>"; };
 		5A9F2A7718DDC49600448630 /* ALMPeripheralManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALMPeripheralManager.h; sourceTree = "<group>"; };
 		5A9F2A7818DDC49600448630 /* ALMPeripheralManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALMPeripheralManager.m; sourceTree = "<group>"; };
 		5AECDF2F18DD9FFE0089F166 /* ABFBeacon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABFBeacon.h; sourceTree = "<group>"; };
@@ -96,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				409DB78318DE063900C23A9C /* AVFoundation.framework in Frameworks */,
 				409DB78118DDFC1D00C23A9C /* SystemConfiguration.framework in Frameworks */,
 				409DB77F18DDFC1200C23A9C /* CFNetwork.framework in Frameworks */,
 				409DB77D18DDFC0800C23A9C /* Security.framework in Frameworks */,
@@ -154,6 +159,7 @@
 		FFDD267018DD7DE000557A31 = {
 			isa = PBXGroup;
 			children = (
+				409DB78418DE092F00C23A9C /* warp1.mp3 */,
 				FFDD268218DD7DE000557A31 /* AwesomeLightningMachikon */,
 				FFDD26A118DD7DE000557A31 /* AwesomeLightningMachikonTests */,
 				FFDD267B18DD7DE000557A31 /* Frameworks */,
@@ -174,6 +180,7 @@
 		FFDD267B18DD7DE000557A31 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				409DB78218DE063800C23A9C /* AVFoundation.framework */,
 				409DB78018DDFC1D00C23A9C /* SystemConfiguration.framework */,
 				409DB77E18DDFC1200C23A9C /* CFNetwork.framework */,
 				409DB77C18DDFC0800C23A9C /* Security.framework */,
@@ -336,6 +343,7 @@
 				405CA90018DDCCC30024D844 /* ALMQuestions.plist in Resources */,
 				FFDD269518DD7DE000557A31 /* Images.xcassets in Resources */,
 				405CA90418DDE9840024D844 /* Podfile in Resources */,
+				409DB78518DE092F00C23A9C /* warp1.mp3 in Resources */,
 				FFDD268718DD7DE000557A31 /* InfoPlist.strings in Resources */,
 				FFDD269018DD7DE000557A31 /* Main.storyboard in Resources */,
 				405CA8FF18DDCCC30024D844 /* ALMAnswers.plist in Resources */,

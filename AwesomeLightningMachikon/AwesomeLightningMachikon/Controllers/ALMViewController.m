@@ -24,4 +24,11 @@
     [super didReceiveMemoryWarning];
 }
 
+#pragma mark - action
+
+-(IBAction)start:(id)sender
+{
+    
+}
+
 @end

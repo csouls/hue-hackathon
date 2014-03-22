@@ -9,5 +9,11 @@
 #import <UIKit/UIKit.h>
 
 @interface ALMAdvertiserViewController : UIViewController
+{
+    IBOutlet UIButton *sendButton;
+    IBOutlet UIImageView *running;
+}
+
+-(IBAction)send:(id)sender;
 
 @end

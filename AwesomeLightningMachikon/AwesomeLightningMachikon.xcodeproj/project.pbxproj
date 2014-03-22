@@ -14,13 +14,15 @@
 		FFDD268918DD7DE000557A31 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FFDD268818DD7DE000557A31 /* main.m */; };
 		FFDD268D18DD7DE000557A31 /* ALMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FFDD268C18DD7DE000557A31 /* ALMAppDelegate.m */; };
 		FFDD269018DD7DE000557A31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFDD268E18DD7DE000557A31 /* Main.storyboard */; };
-		FFDD269318DD7DE000557A31 /* ALMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFDD269218DD7DE000557A31 /* ALMViewController.m */; };
 		FFDD269518DD7DE000557A31 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFDD269418DD7DE000557A31 /* Images.xcassets */; };
 		FFDD269C18DD7DE000557A31 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFDD269B18DD7DE000557A31 /* XCTest.framework */; };
 		FFDD269D18DD7DE000557A31 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFDD267C18DD7DE000557A31 /* Foundation.framework */; };
 		FFDD269E18DD7DE000557A31 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFDD268018DD7DE000557A31 /* UIKit.framework */; };
 		FFDD26A618DD7DE000557A31 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FFDD26A418DD7DE000557A31 /* InfoPlist.strings */; };
 		FFDD26A818DD7DE000557A31 /* AwesomeLightningMachikonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FFDD26A718DD7DE000557A31 /* AwesomeLightningMachikonTests.m */; };
+		FFDD26C018DD837B00557A31 /* ALMAdvertiserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFDD26B918DD837B00557A31 /* ALMAdvertiserViewController.m */; };
+		FFDD26C118DD837B00557A31 /* ALMQuestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFDD26BB18DD837B00557A31 /* ALMQuestionViewController.m */; };
+		FFDD26C218DD837B00557A31 /* ALMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFDD26BD18DD837B00557A31 /* ALMViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +47,18 @@
 		FFDD268B18DD7DE000557A31 /* ALMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALMAppDelegate.h; sourceTree = "<group>"; };
 		FFDD268C18DD7DE000557A31 /* ALMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALMAppDelegate.m; sourceTree = "<group>"; };
 		FFDD268F18DD7DE000557A31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		FFDD269118DD7DE000557A31 /* ALMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALMViewController.h; sourceTree = "<group>"; };
-		FFDD269218DD7DE000557A31 /* ALMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALMViewController.m; sourceTree = "<group>"; };
 		FFDD269418DD7DE000557A31 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		FFDD269A18DD7DE000557A31 /* AwesomeLightningMachikonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AwesomeLightningMachikonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFDD269B18DD7DE000557A31 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		FFDD26A318DD7DE000557A31 /* AwesomeLightningMachikonTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AwesomeLightningMachikonTests-Info.plist"; sourceTree = "<group>"; };
 		FFDD26A518DD7DE000557A31 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FFDD26A718DD7DE000557A31 /* AwesomeLightningMachikonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AwesomeLightningMachikonTests.m; sourceTree = "<group>"; };
+		FFDD26B818DD837B00557A31 /* ALMAdvertiserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALMAdvertiserViewController.h; sourceTree = "<group>"; };
+		FFDD26B918DD837B00557A31 /* ALMAdvertiserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALMAdvertiserViewController.m; sourceTree = "<group>"; };
+		FFDD26BA18DD837B00557A31 /* ALMQuestionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALMQuestionViewController.h; sourceTree = "<group>"; };
+		FFDD26BB18DD837B00557A31 /* ALMQuestionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALMQuestionViewController.m; sourceTree = "<group>"; };
+		FFDD26BC18DD837B00557A31 /* ALMViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALMViewController.h; sourceTree = "<group>"; };
+		FFDD26BD18DD837B00557A31 /* ALMViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALMViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,9 +120,10 @@
 			children = (
 				FFDD268B18DD7DE000557A31 /* ALMAppDelegate.h */,
 				FFDD268C18DD7DE000557A31 /* ALMAppDelegate.m */,
+				FFDD26B718DD837B00557A31 /* Controllers */,
+				FFDD26BE18DD837B00557A31 /* Models */,
+				FFDD26BF18DD837B00557A31 /* Views */,
 				FFDD268E18DD7DE000557A31 /* Main.storyboard */,
-				FFDD269118DD7DE000557A31 /* ALMViewController.h */,
-				FFDD269218DD7DE000557A31 /* ALMViewController.m */,
 				FFDD269418DD7DE000557A31 /* Images.xcassets */,
 				FFDD268318DD7DE000557A31 /* Supporting Files */,
 			);
@@ -150,6 +157,33 @@
 				FFDD26A418DD7DE000557A31 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FFDD26B718DD837B00557A31 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FFDD26B818DD837B00557A31 /* ALMAdvertiserViewController.h */,
+				FFDD26B918DD837B00557A31 /* ALMAdvertiserViewController.m */,
+				FFDD26BA18DD837B00557A31 /* ALMQuestionViewController.h */,
+				FFDD26BB18DD837B00557A31 /* ALMQuestionViewController.m */,
+				FFDD26BC18DD837B00557A31 /* ALMViewController.h */,
+				FFDD26BD18DD837B00557A31 /* ALMViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		FFDD26BE18DD837B00557A31 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FFDD26BF18DD837B00557A31 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,8 +285,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FFDD268918DD7DE000557A31 /* main.m in Sources */,
+				FFDD26C218DD837B00557A31 /* ALMViewController.m in Sources */,
+				FFDD26C018DD837B00557A31 /* ALMAdvertiserViewController.m in Sources */,
 				FFDD268D18DD7DE000557A31 /* ALMAppDelegate.m in Sources */,
-				FFDD269318DD7DE000557A31 /* ALMViewController.m in Sources */,
+				FFDD26C118DD837B00557A31 /* ALMQuestionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,6 +493,7 @@
 				FFDD26AD18DD7DE000557A31 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FFDD26AE18DD7DE000557A31 /* Build configuration list for PBXNativeTarget "AwesomeLightningMachikonTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +502,7 @@
 				FFDD26B018DD7DE000557A31 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

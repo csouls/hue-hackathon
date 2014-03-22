@@ -38,6 +38,67 @@
             </objects>
             <point key="canvasLocation" x="851" y="50"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="Gpe-ip-nGF">
+            <objects>
+                <viewController id="OQ0-bc-4VH" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="nAh-9F-mYE">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="pwy-gA-H8q">
+                                <rect key="frame" x="95" y="205" width="75" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="持ち歩く方">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="vXZ-lx-hvc" kind="push" id="cs5-SC-mAe"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Rd8-fI-kBU">
+                                <rect key="frame" x="95" y="315" width="75" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="置いとく方">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="9dS-2s-TbT" kind="push" id="jTj-DF-iqA"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="xrH-Jn-oUe"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UXp-Ac-M6y" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="683" y="695"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="9go-AG-79Y">
+            <objects>
+                <viewController id="9dS-2s-TbT" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="B7o-90-8SW">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="8Sc-lV-Y8D">
+                                <rect key="frame" x="137" y="285" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="2OG-aD-lNR"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8E8-Mn-F1o" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1131" y="759"/>
+        </scene>
         <!--Question View Controller-->
         <scene sceneID="KUB-KK-htn">
             <objects>
@@ -127,6 +188,9 @@
                                 <state key="normal" title="送信">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="send:" destination="PJE-Iv-0sY" eventType="touchUpInside" id="UoE-9q-4as"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -152,7 +216,7 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="OHN-2w-nfU"/>
+                        <segue destination="OQ0-bc-4VH" kind="relationship" relationship="rootViewController" id="LYN-eb-ugm"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="b3r-aT-1yr" userLabel="First Responder" sceneMemberID="firstResponder"/>

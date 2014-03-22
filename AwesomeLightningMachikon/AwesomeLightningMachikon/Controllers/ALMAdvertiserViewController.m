@@ -7,6 +7,7 @@
 //
 
 #import "ALMAdvertiserViewController.h"
+#import "AFHTTPRequestOperationManager.h"
 
 @interface ALMAdvertiserViewController ()
 
@@ -26,7 +27,11 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    // 結局UUIDはいらない？
+    NSUUID *vendorUUID = [UIDevice currentDevice].identifierForVendor;
+    postData = [self loadExam:@"ALMAnswers"];
+    [postData setValue:vendorUUID.UUIDString forKey:@"device_token"];
+    [postData setValue:[[NSNumber alloc] initWithInt:1] forKey:@"monor_id"];
 }
 
 - (void)didReceiveMemoryWarning
@@ -39,8 +44,38 @@
 -(IBAction)send:(id)sender
 {
     
+    [self post:postData];
 }
 
+#pragma mark - private
+-(NSMutableDictionary*)loadExam:(NSString*)filename
+{
+    NSString* filePath = [[NSBundle mainBundle] pathForResource:filename ofType:@"plist"];
+    
+    // ファイルマネージャを作成
+    NSFileManager *fileManager = [NSFileManager defaultManager];
+    
+    // ファイルが存在しないか デバック用
+    if (![fileManager fileExistsAtPath:filePath]) {
+        NSLog(@"plistが存在しません．");
+        return nil;
+    }
+    
+    // plistを読み込む
+    return [NSMutableDictionary dictionaryWithContentsOfFile:filePath];
+}
+
+#pragma mark - private
+-(void)post:(NSDictionary*)dict_
+{
+     AFHTTPRequestOperationManager* manager = [AFHTTPRequestOperationManager manager];
+     [manager POST:@"http://xxxx"
+     parameters:dict_ success:^(AFHTTPRequestOperation *operation, id responseObject) {
+     NSLog(@"response: %@", responseObject);
+     } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+     NSLog(@"Error: %@", error);
+     }];
+}
 /*
 #pragma mark - Navigation
 

@@ -21,7 +21,7 @@ static const int tagANSWER_B = 2;
 static const int tagANSWER_C = 3;
 static const int tagANSWER_D = 4;
 
-static const int MAX_EXAM = 5 -1;//ロジック上 -1
+static const int MAX_EXAM = 5;
 
 static int NUMBER = 0;
 
@@ -135,8 +135,8 @@ static int NUMBER = 0;
         return false;
     }
     
-    NSMutableArray *arr = [NSMutableArray arrayWithContentsOfFile:filePath];
-    [arr addObject:dict_];
+    NSMutableDictionary *arr = [NSMutableDictionary dictionaryWithContentsOfFile:filePath];
+    [arr addEntriesFromDictionary:dict_];
     BOOL result = [arr writeToFile:filePath atomically:YES];
     return result;
 }
@@ -153,7 +153,7 @@ static int NUMBER = 0;
         NSLog(@"plistが存在しません．");
         return false;
     }
-    NSArray *arr = [[NSArray alloc] init];
+    NSDictionary *arr = [[NSDictionary alloc] init];
     BOOL result = [arr writeToFile:filePath atomically:YES];
     return result;
 }

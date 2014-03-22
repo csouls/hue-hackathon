@@ -58,7 +58,7 @@ r0
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesc9c71686f0ddb841^28601786f0ddb841^---0#1#1#--18"Check dependencies36"D53158A4-2577-4CAB-8187-D3FC38B04F36-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesf0f9998803deb841^336e9a8803deb841^---0#1#1#--18"Check dependencies36"91E9ED33-541B-4335-8671-3EED8DFF8254-
 
 CCompileC /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/Pods-dummy.o /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Pods/Pods-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s417198199.807914

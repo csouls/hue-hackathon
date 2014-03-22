@@ -12,6 +12,8 @@
 {
     IBOutlet UIButton *sendButton;
     IBOutlet UIImageView *running;
+    
+    NSDictionary *postData;
 }
 
 -(IBAction)send:(id)sender;

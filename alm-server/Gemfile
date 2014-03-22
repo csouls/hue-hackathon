@@ -22,3 +22,21 @@ gem 'dalli'
 
 # iOS push notification
 gem 'houston'
+
+# Support for development
+group :development do
+  gem 'pry-nav'
+  gem 'pry-doc'
+  gem 'pry-rails'
+end
+
+# Testing flameworks
+group :test, :development do
+  gem 'rspec'
+  gem 'rspec-rails'
+  gem 'spring'
+  gem 'spring-commands-rspec'
+  gem 'factory_girl_rails'
+  gem 'timecop'
+  gem 'capybara'
+end

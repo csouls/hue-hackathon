@@ -7,6 +7,7 @@
 //
 
 #import "ALMQuestionViewController.h"
+#import "ALMAdvertiserViewController.h"
 
 @interface ALMQuestionViewController ()
 
@@ -20,29 +21,49 @@ static const int tagANSWER_B = 2;
 static const int tagANSWER_C = 3;
 static const int tagANSWER_D = 4;
 
+static const int MAX_EXAM = 5 -1;//ロジック上 -1
+
+static int NUMBER = 0;
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        // Custom initialization
-        number = 0;// 最初は0
     }
+    return self;
+}
+
+- (id)initWithCoder:(NSCoder*)decoder
+{
+    self = [super initWithCoder:decoder];
+    if (!self) {
+        return nil;
+    }
+    NUMBER += 1;
+    
     return self;
 }
 
 -(void)setNumber:(NSInteger)number_
 {
-    number = number + 1;
+    //number = number + 1;
 }
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    // 問題設定 nilはこない前提
+    NSArray *exams = [self loadExam];
+    
     for(UIButton *button in answerButtons){
         [button addTarget:self action:@selector(answer:)
          forControlEvents:UIControlEventTouchUpInside];
+        NSDictionary *dict = [exams objectAtIndex:NUMBER-1];
+        examSentence.text = [dict objectForKey:@"Sentence"];
+        [button setTitle:[dict objectForKey:[[NSString alloc] initWithFormat:@"%c",button.tag + 'A'-1]] forState:UIControlStateNormal];
     }
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -55,10 +76,37 @@ static const int tagANSWER_D = 4;
 -(void)answer:(id)sender
 {
     UIButton *button = sender;
+    NSLog(@"exam:%d",NUMBER);
     NSLog(@"View.tag:%d",button.tag);
-    ALMQuestionViewController *controller = [self.storyboard instantiateViewControllerWithIdentifier:@"Question"];
-    [controller setNumber:number];
-    [self.navigationController pushViewController:controller animated:YES];
+    if(NUMBER < MAX_EXAM)
+    {
+        ALMQuestionViewController *controller = [self.storyboard instantiateViewControllerWithIdentifier:@"Question"];
+        [self.navigationController pushViewController:controller animated:YES];
+        
+    }
+    else
+    {
+        ALMAdvertiserViewController *controller = [self.storyboard instantiateViewControllerWithIdentifier:@"Advertiser"];
+        [self.navigationController pushViewController:controller animated:YES];
+    }
+}
+
+#pragma mark - private
+-(NSArray*)loadExam
+{
+    NSString* filePath = [[NSBundle mainBundle] pathForResource:@"ALMQuestions" ofType:@"plist"];
+    
+    // ファイルマネージャを作成
+    NSFileManager *fileManager = [NSFileManager defaultManager];
+    
+    // ファイルが存在しないか?
+    if (![fileManager fileExistsAtPath:filePath]) { // yes
+        NSLog(@"plistが存在しません．");
+        return nil;
+    }
+    
+    // plistを読み込む
+    return [NSArray arrayWithContentsOfFile:filePath];
 }
 /*
 #pragma mark - Navigation

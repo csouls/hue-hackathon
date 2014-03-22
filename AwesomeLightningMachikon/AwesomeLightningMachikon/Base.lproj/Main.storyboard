@@ -41,7 +41,7 @@
         <!--Question View Controller-->
         <scene sceneID="KUB-KK-htn">
             <objects>
-                <viewController storyboardIdentifier="Question" useStoryboardIdentifierAsRestorationIdentifier="YES" id="K9N-1P-zj9" customClass="ALMQuestionViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Question" id="K9N-1P-zj9" customClass="ALMQuestionViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="vJ0-BC-Won">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -112,7 +112,7 @@
         <!--Advertiser View Controller-->
         <scene sceneID="AcC-PR-FMa">
             <objects>
-                <viewController id="PJE-Iv-0sY" customClass="ALMAdvertiserViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Advertiser" useStoryboardIdentifierAsRestorationIdentifier="YES" id="PJE-Iv-0sY" customClass="ALMAdvertiserViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="psn-NQ-vUL">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>

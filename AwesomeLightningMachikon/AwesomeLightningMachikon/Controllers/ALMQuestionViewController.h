@@ -22,6 +22,4 @@
     NSInteger number;
 }
 
--(void)setNumber:(NSInteger)number_;
-
 @end

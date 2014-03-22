@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Sentence</key>
+		<string>雨の日に野良の子犬が悲しそうな目でこちらを見ています。どうしますか？</string>
+		<key>A</key>
+		<string>連れて返ってご飯をあげて、もう飼ってしまう</string>
+		<key>B</key>
+		<string>連れて返ってご飯を上げる</string>
+		<key>C</key>
+		<string>頭を撫でる</string>
+		<key>D</key>
+		<string>無視する</string>
+	</dict>
+	<dict>
+		<key>Sentence</key>
+		<string>サンタクロースについて一言</string>
+		<key>A</key>
+		<string>子供に夢を与える素敵な存在</string>
+		<key>B</key>
+		<string>信じていない</string>
+		<key>C</key>
+		<string>信じてる</string>
+		<key>D</key>
+		<string>関心がない</string>
+	</dict>
+	<dict>
+		<key>Sentence</key>
+		<string>スポーツといえば</string>
+		<key>A</key>
+		<string>野球！</string>
+		<key>B</key>
+		<string>サッカー！</string>
+		<key>C</key>
+		<string>相撲！</string>
+		<key>D</key>
+		<string>あまり関心がない</string>
+	</dict>
+	<dict>
+		<key>Sentence</key>
+		<string>自分の先祖はどれだと思う？</string>
+		<key>A</key>
+		<string>縄文系</string>
+		<key>B</key>
+		<string>弥生系</string>
+		<key>C</key>
+		<string>外国系</string>
+		<key>D</key>
+		<string>地球外系</string>
+	</dict>
+	<dict>
+		<key>Sentence</key>
+		<string>好きな音楽のジャンルは？</string>
+		<key>A</key>
+		<string>ポップス</string>
+		<key>B</key>
+		<string>ロック</string>
+		<key>C</key>
+		<string>ジャズ</string>
+		<key>D</key>
+		<string>クラシック</string>
+	</dict>
+</array>
+</plist>

@@ -9,5 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface ALMViewController : UIViewController
+{
+    IBOutlet UIButton *startButton;
+}
+
+-(IBAction)start:(id)sender;
 
 @end

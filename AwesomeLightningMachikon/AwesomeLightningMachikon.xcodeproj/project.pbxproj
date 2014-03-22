@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		405CA8F818DDAC8F0024D844 /* ALMStartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 405CA8F718DDAC8F0024D844 /* ALMStartView.m */; };
 		FFDD267D18DD7DE000557A31 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFDD267C18DD7DE000557A31 /* Foundation.framework */; };
 		FFDD267F18DD7DE000557A31 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFDD267E18DD7DE000557A31 /* CoreGraphics.framework */; };
 		FFDD268118DD7DE000557A31 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFDD268018DD7DE000557A31 /* UIKit.framework */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		405CA8F618DDAC8F0024D844 /* ALMStartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALMStartView.h; sourceTree = "<group>"; };
+		405CA8F718DDAC8F0024D844 /* ALMStartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALMStartView.m; sourceTree = "<group>"; };
 		FFDD267918DD7DE000557A31 /* AwesomeLightningMachikon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AwesomeLightningMachikon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFDD267C18DD7DE000557A31 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FFDD267E18DD7DE000557A31 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -182,6 +185,8 @@
 		FFDD26BF18DD837B00557A31 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				405CA8F618DDAC8F0024D844 /* ALMStartView.h */,
+				405CA8F718DDAC8F0024D844 /* ALMStartView.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -284,6 +289,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				405CA8F818DDAC8F0024D844 /* ALMStartView.m in Sources */,
 				FFDD268918DD7DE000557A31 /* main.m in Sources */,
 				FFDD26C218DD837B00557A31 /* ALMViewController.m in Sources */,
 				FFDD26C018DD837B00557A31 /* ALMAdvertiserViewController.m in Sources */,
@@ -370,7 +376,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -402,7 +408,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};

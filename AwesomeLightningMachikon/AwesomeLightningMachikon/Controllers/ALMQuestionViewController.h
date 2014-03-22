@@ -9,5 +9,17 @@
 #import <UIKit/UIKit.h>
 
 @interface ALMQuestionViewController : UIViewController
+{
+    IBOutletCollection(UIButton) NSArray *answerButtons;
+    
+    /// 出題文
+    IBOutlet UITextView *examSentence;
+    
+    /// 出題写真
+    IBOutlet UIImageView *examPicture;
+    
+    /// 回答の番号を保持する。
+    int number;
+}
 
 @end

@@ -16,9 +16,6 @@
 
 @end
 
-/**
- *  いわゆる受信側マネージャー
- */
 @implementation ALMCentralManager
 
 static ALMCentralManager *_sharedInstance = nil;
@@ -36,7 +33,7 @@ static ALMCentralManager *_sharedInstance = nil;
 	    _sharedInstance = [[ALMCentralManager alloc] init];
 	    _sharedInstance.beacon = [ABFBeacon sharedManager];
 	    _sharedInstance.beacon.delegate = _sharedInstance;
-        _sharedInstance.beacon.loggingEnabled = YES;
+        _sharedInstance.beacon.loggingEnabled = NO;
 	    [_sharedInstance.beacon registerRegion:@"B9407F30-F5F8-466E-AFF9-25556B57FE6D" identifier:@"ALM"];
 	    [_sharedInstance.beacon startMonitoring];
 	});
@@ -127,7 +124,7 @@ static ALMCentralManager *_sharedInstance = nil;
  *  @param region  region
  */
 - (void)didRangeBeacons:(ABFBeaconRegion *)region {
-    NSLog(@"%@", NSStringFromSelector(_cmd));
+    //NSLog(@"%@", NSStringFromSelector(_cmd));
     
 	// ビーコンが1個もなかった場合はreturn
 	if (region.beacons.count == 0) {

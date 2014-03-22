@@ -8,6 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
+/**
+ *  いわゆる受信側マネージャー
+ */
 @interface ALMCentralManager : NSObject
 
 /**

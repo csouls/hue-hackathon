@@ -16,4 +16,4 @@
 # Using secret_token for rails3 compatibility. Change to secret_key_base
 # to avoid deprecation warning.
 # Can be safely removed in a rails3 api-only application.
-AlmServer::Application.config.secret_token = '7d4268de11fe4d581842496575b2293f568d0eadb27c389198e18b740f5e24dbb9e76bed5096e44ef94be9274aa77de98c8ef35171a8da3e42ae3297b1691dbe'
+AlmServer::Application.config.secret_key_base = '7d4268de11fe4d581842496575b2293f568d0eadb27c389198e18b740f5e24dbb9e76bed5096e44ef94be9274aa77de98c8ef35171a8da3e42ae3297b1691dbe'

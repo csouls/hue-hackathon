@@ -7,11 +7,17 @@
 //
 
 #import "ALMAppDelegate.h"
+#import "ALMCentralManager.h"
+#import "ALMPeripheralManager.h"
 
 @implementation ALMAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    // TODO 仮
+    ALMCentralManager *centralManager = [ALMCentralManager sharedManager];
+    //ALMPeripheralManager *peripheralManager = [ALMPeripheralManager sharedManager];
+    
     // Override point for customization after application launch.
     return YES;
 }

@@ -92,6 +92,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5AECDF2D18DD9FFE0089F166 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				5AECDF2E18DD9FFE0089F166 /* ABFBeacon */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		5AECDF2E18DD9FFE0089F166 /* ABFBeacon */ = {
+			isa = PBXGroup;
+			children = (
+				5AECDF2F18DD9FFE0089F166 /* ABFBeacon.h */,
+				5AECDF3018DD9FFE0089F166 /* ABFBeacon.m */,
+				5AECDF3118DD9FFE0089F166 /* ABFBeaconRegion.h */,
+				5AECDF3218DD9FFE0089F166 /* ABFBeaconRegion.m */,
+			);
+			path = ABFBeacon;
+			sourceTree = "<group>";
+		};
+		5AECDF3518DDA2FA0089F166 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5AECDF3618DDA3240089F166 /* ALMCentralManager.h */,
+				5AECDF3718DDA3240089F166 /* ALMCentralManager.m */,
+				5A9F2A7718DDC49600448630 /* ALMPeripheralManager.h */,
+				5A9F2A7818DDC49600448630 /* ALMPeripheralManager.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		FFDD267018DD7DE000557A31 = {
 			isa = PBXGroup;
 			children = (
@@ -128,8 +158,9 @@
 				FFDD268B18DD7DE000557A31 /* ALMAppDelegate.h */,
 				FFDD268C18DD7DE000557A31 /* ALMAppDelegate.m */,
 				FFDD26B718DD837B00557A31 /* Controllers */,
-				FFDD26BE18DD837B00557A31 /* Models */,
 				FFDD26BF18DD837B00557A31 /* Views */,
+				5AECDF3518DDA2FA0089F166 /* Models */,
+				5AECDF2D18DD9FFE0089F166 /* Libraries */,
 				FFDD268E18DD7DE000557A31 /* Main.storyboard */,
 				FFDD269418DD7DE000557A31 /* Images.xcassets */,
 				FFDD268318DD7DE000557A31 /* Supporting Files */,
@@ -297,11 +328,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A9F2A7918DDC49600448630 /* ALMPeripheralManager.m in Sources */,
 				405CA8F818DDAC8F0024D844 /* ALMStartView.m in Sources */,
 				FFDD268918DD7DE000557A31 /* main.m in Sources */,
+				5AECDF3318DD9FFE0089F166 /* ABFBeacon.m in Sources */,
 				FFDD26C218DD837B00557A31 /* ALMViewController.m in Sources */,
 				FFDD26C018DD837B00557A31 /* ALMAdvertiserViewController.m in Sources */,
+				5AECDF3818DDA3240089F166 /* ALMCentralManager.m in Sources */,
 				FFDD268D18DD7DE000557A31 /* ALMAppDelegate.m in Sources */,
+				5AECDF3418DD9FFE0089F166 /* ABFBeaconRegion.m in Sources */,
 				FFDD26C118DD837B00557A31 /* ALMQuestionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

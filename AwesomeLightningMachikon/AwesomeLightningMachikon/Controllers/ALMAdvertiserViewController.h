@@ -14,6 +14,9 @@
     IBOutlet UIImageView *running;
     
     NSDictionary *postData;
+    
+    /// １秒に一回POSTするよう
+    NSTimer *timer;
 }
 
 -(IBAction)send:(id)sender;

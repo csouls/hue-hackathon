@@ -11,6 +11,9 @@ gem 'mysql2'
 # To use Jbuilder templates for JSON
 gem 'jbuilder'
 
+# Controller action arguments parameterizer
+gem 'action_args'
+
 # Use puma as the app server
 gem 'puma'
 
@@ -23,14 +26,7 @@ gem 'dalli'
 # iOS push notification
 gem 'houston'
 
-# Support for development
-group :development do
-  gem 'pry-nav'
-  gem 'pry-doc'
-  gem 'pry-rails'
-end
-
-# Testing flameworks
+# Testing flameworks and development support gems
 group :test, :development do
   gem 'rspec'
   gem 'rspec-rails'
@@ -39,4 +35,8 @@ group :test, :development do
   gem 'factory_girl_rails'
   gem 'timecop'
   gem 'capybara'
+
+  gem 'pry-nav'
+  gem 'pry-doc'
+  gem 'pry-rails'
 end

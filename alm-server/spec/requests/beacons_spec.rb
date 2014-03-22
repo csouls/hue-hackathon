@@ -1,11 +1,13 @@
 require 'spec_helper'
 
 describe "Beacons" do
-  describe "GET /beacons" do
-    it "works! (now write some real specs)" do
-      # Run the generator again with the --webrat flag if you want to use webrat methods/matchers
-      get beacons_path
-      response.status.should be(200)
+  describe "POST /beacons" do
+    it "returns success" do
+      post beacons_path, device_id: 'test-device-id'
+      expect(response.status).to eq(200)
+
+      body = JSON.parse response.body
+      expect(body.keys).to eq(["major_id", "minor_id"])
     end
   end
 end

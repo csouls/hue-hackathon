@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+gem 'hue', git: 'git@github.com:soffes/hue.git'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.3'
 

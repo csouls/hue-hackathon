@@ -1,3 +1,11 @@
+GIT
+  remote: git@github.com:soffes/hue.git
+  revision: 0b9a8380b636f0ee7ba12c9382579682eb6b26a4
+  specs:
+    hue (0.1.2)
+      multi_json
+      thor
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -156,6 +164,7 @@ DEPENDENCIES
   dalli
   factory_girl_rails
   houston
+  hue!
   jbuilder
   mysql2
   pry-doc

@@ -2,8 +2,8 @@ class BeaconsController < ApplicationController
   # POST /beacons
   # POST /beacons.json
   def create(device_id)
-    @device = Device.where(device_id: device_id)
-    unless @device.exists?
+    @device = Device.find_by(device_id: device_id)
+    unless @device
       @device = Device.create(
         device_id: device_id,
         major_id: Settings.beacon.major_id,

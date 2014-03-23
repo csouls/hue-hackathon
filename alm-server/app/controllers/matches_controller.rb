@@ -35,7 +35,7 @@ class MatchesController < ApplicationController
 
   def lighting(ip, level)
     client = Hue::Client.new
-    lights = client.bridges.map { |bridge| bridge.lights if bridge.ip == "192.168.1.156" }.flatten.compact
+    lights = client.bridges.map { |bridge| bridge.lights if bridge.ip == ip }.flatten.compact
 
     case level
     when 1..2

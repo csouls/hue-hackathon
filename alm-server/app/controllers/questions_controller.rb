@@ -6,9 +6,11 @@ class QuestionsController < ApplicationController
     device.device_token = device_token
     device.save!
 
-    records = questions.map do |question, answer|
-      Question.create(device_id: device.id, question: question.to_i, answer: answer)
-    end
+    records = questions.map do |qhash|
+      qhash.map do |question, answer|
+        Question.create(device_id: device.id, question: question.to_i, answer: answer)
+      end
+    end.flatten
 
     Device.where('id != ?', device.id).each do |other_device|
       level = 0

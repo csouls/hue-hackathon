@@ -4,7 +4,7 @@ describe "Questions" do
   describe "POST /questions" do
     let(:device) { create(:device) }
     let(:device_token) { "IJC6S3YJRPHVCRKTDTQNGGZKXICPHOJRWVB28224FHEX6EPPIFW4VV2S1IMGSV2L" }
-    let(:questions) { {"1" => "A", "2" => "B"} }
+    let(:questions) { [{"1" => "A"}, {"2" => "B"}] }
 
     before do
       other_device = create(:device)

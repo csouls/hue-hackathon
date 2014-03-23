@@ -7,11 +7,9 @@ class QuestionsController < ApplicationController
     device.save!
 
     Question.delete_all(device_id: device.id)
-    records = questions.map do |qhash|
-      qhash.map do |question, answer|
-        Question.create(device_id: device.id, question: question.to_i, answer: answer)
-      end
-    end.flatten
+    records = questions.map.with_index do |answer, question|
+      Question.create(device_id: device.id, question: question + 1, answer: answer)
+    end
 
     Affinity.delete_all(from_device_id: device.id)
     Affinity.delete_all(to_device_id: device.id)

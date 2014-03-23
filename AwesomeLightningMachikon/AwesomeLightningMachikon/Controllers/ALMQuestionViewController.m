@@ -72,7 +72,12 @@ static int NUMBER = 0;
     UIFont *font = [UIFont systemFontOfSize:40];
     
     examSentence.textColor =[UIColor whiteColor];
-    examSentence.font = [font fontWithSize:30];
+    examSentence.font = [font fontWithSize:24];
+    
+    // buttonサイズ調整
+    [answerButtons enumerateObjectsUsingBlock:^(UIButton *button, NSUInteger idx, BOOL *stop) {
+        button.titleEdgeInsets = UIEdgeInsetsMake(0.0, 40.0, 0.0, 20.0);
+    }];
 }
 
 - (void)didReceiveMemoryWarning

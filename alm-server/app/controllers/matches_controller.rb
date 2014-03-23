@@ -8,8 +8,10 @@ class MatchesController < ApplicationController
     return if likables.count == 0
 
     max_level = likables.first.level
-    likables.collect! {|affinity| affinity.level == max_level }
-    send_to = likables.sample
+    likables.select! {|affinity| affinity.level == max_level }
+    send = likables.sample
+    devices = Device.where(id: [send.from_device_id, send.to_device_id])
+    notification(devices)
 
     lighting(ip, max_level)
     render json: {}
@@ -61,4 +63,20 @@ class MatchesController < ApplicationController
       end
     end
   end
+
+  def notification(devices)
+    client = Rails.env.production? ? Houston::Client.production : Houston::Client.development
+    client.certificate = File.read(Settings.apns.pem)
+
+    devices.each do |e|
+      notification = Houston::Notification.new
+      notification.token = e.device_token
+      #notification.alert = option[:alert] if option[:alert]
+      #notification.badge = option[:badge] if option[:badge]
+      notification.sound = 'default'
+      #notification.content_available = content_available if content_available
+      client.push notification
+    end
+  end
 end
+

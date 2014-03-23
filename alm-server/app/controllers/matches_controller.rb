@@ -12,6 +12,7 @@ class MatchesController < ApplicationController
     send_to = likables.sample
 
     lighting(ip, max_level)
+    render json: {}
   end
 
   private

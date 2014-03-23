@@ -24,5 +24,7 @@ class QuestionsController < ApplicationController
       Affinity.create(from_device_id: device.id, to_device_id: other_device.id, level: level)
       Affinity.create(from_device_id: other_device.id, to_device_id: device.id, level: level)
     end
+
+    render json: {}
   end
 end

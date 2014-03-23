@@ -46,7 +46,7 @@ class MatchesController < ApplicationController
         light.saturation = 200
         light.brightness = 150
       end
-      sleep 1.5
+      sleep 1
       lights.each { |light| light.on = false }
     when 3..4
       lights.each do |light|
@@ -56,7 +56,7 @@ class MatchesController < ApplicationController
         light.saturation = 200
         light.brightness = 200
       end
-      sleep 1.5
+      sleep 1
       lights.each { |light| light.on = false }
     when 5
       lights.each do |light|
@@ -66,7 +66,7 @@ class MatchesController < ApplicationController
       colors = [0, 25500, 46920, 59160]
 
       Parallel.each(lights, in_threads: lights.count) do |light|
-        8.times do |i|
+        4.times do |i|
           light.on = true
           index = (light.id.to_i + i) % 4
           puts index

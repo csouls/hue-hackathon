@@ -12,4 +12,8 @@
 
 class Affinity < ActiveRecord::Base
   belongs_to :device
+
+  scope :likables, ->(device_ids) {
+    where('level > 0').where(from_device_id: device_ids)
+  }
 end

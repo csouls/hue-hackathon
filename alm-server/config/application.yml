@@ -1,6 +1,9 @@
 defaults: &defaults
   beacon:
     major_id: 65105
+  apns:
+    host: 'gateway.sandbox.push.apple.com'
+    pem: <%= "#{Rails.root}/config/apns/alm_dev.pem" %>
 
 development:
   <<: *defaults

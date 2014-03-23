@@ -62,7 +62,9 @@
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
-
+-(void)sound
+{
+}
 #pragma mark - p
 
 - (void)application:(UIApplication *)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)devToken
@@ -97,6 +99,13 @@
 - (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo
 {
     AudioServicesPlaySystemSound(kSystemSoundID_Vibrate);
+    AVAudioPlayer *audioPlayer;
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"warp1" ofType:@"mp3"];
+    NSURL *url = [NSURL fileURLWithPath:path];
+    audioPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:url error:nil];
+    audioPlayer.volume = 0.1;
+    [audioPlayer prepareToPlay];
+    [audioPlayer play];
     
     NSLog(@"did receive RemoteNotification");
     

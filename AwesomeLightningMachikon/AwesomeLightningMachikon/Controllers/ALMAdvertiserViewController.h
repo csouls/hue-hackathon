@@ -23,7 +23,6 @@
     /// １秒に一回POSTするよう
     NSTimer *timer;
     
-    AVAudioPlayer *audioPlayer;
 }
 
 -(IBAction)send:(id)sender;

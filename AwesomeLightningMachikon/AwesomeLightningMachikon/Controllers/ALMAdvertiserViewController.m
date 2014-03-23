@@ -122,16 +122,6 @@
           NSLog(@"Error: %@", error);
       }];
 }
-
--(void)sound
-{
-    NSString *path = [[NSBundle mainBundle] pathForResource:@"warp1" ofType:@"mp3"];
-    NSURL *url = [NSURL fileURLWithPath:path];
-    audioPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:url error:nil];
-    audioPlayer.volume = 0.1;
-    [audioPlayer prepareToPlay];
-    [audioPlayer play];
-}
 /*
 #pragma mark - Navigation
 

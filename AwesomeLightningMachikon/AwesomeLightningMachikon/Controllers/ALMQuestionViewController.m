@@ -69,14 +69,14 @@ static int NUMBER = 0;
         [button setTitle:[dict objectForKey:[[NSString alloc] initWithFormat:@"%c",button.tag + 'A'-1]] forState:UIControlStateNormal];
     }
     
-    UIFont *font = [UIFont systemFontOfSize:40];
-    
+    examSentence.contentInset = UIEdgeInsetsMake(10, 10, 10, 10);
     examSentence.textColor =[UIColor whiteColor];
-    examSentence.font = [font fontWithSize:24];
+    examSentence.font = [UIFont boldSystemFontOfSize:24];
     
     // buttonサイズ調整
     [answerButtons enumerateObjectsUsingBlock:^(UIButton *button, NSUInteger idx, BOOL *stop) {
         button.titleEdgeInsets = UIEdgeInsetsMake(0.0, 40.0, 0.0, 20.0);
+        button.titleLabel.font = [UIFont boldSystemFontOfSize:20];
     }];
 }
 

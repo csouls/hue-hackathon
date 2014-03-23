@@ -83,6 +83,7 @@ class MatchesController < ApplicationController
     client.certificate = File.read(Settings.apns.pem)
 
     devices.each do |e|
+      next unless e.device_token
       notification = Houston::Notification.new
       notification.token = e.device_token
       notification.alert = "test" #option[:alert] if option[:alert]

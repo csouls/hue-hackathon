@@ -6,8 +6,18 @@ class QuestionsController < ApplicationController
     device.device_token = device_token
     device.save!
 
-    questions.each do |question, answer|
+    records = questions.map do |question, answer|
       Question.create(device_id: device.id, question: question.to_i, answer: answer)
+    end
+
+    Device.where('id != ?', device.id).each do |other_device|
+      level = 0
+      other_device.questions.each do |question|
+        answer = records.find {|record| record.question == question.question }.answer
+        level = level + 1 if question.answer == answer
+      end
+      Affinity.create(from_device_id: device.id, to_device_id: other_device.id, level: level)
+      Affinity.create(from_device_id: other_device.id, to_device_id: device.id, level: level)
     end
   end
 end

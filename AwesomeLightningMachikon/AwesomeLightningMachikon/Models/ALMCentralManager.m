@@ -8,6 +8,7 @@
 
 #import "ALMCentralManager.h"
 #import "ABFBeacon.h"
+#import "ALMAPIFetcher.h"
 
 @interface ALMCentralManager () <ABFBeaconDelegate>
 
@@ -133,7 +134,7 @@ static ALMCentralManager *_sharedInstance = nil;
 
 	// 繰り返しのAPI送信を防ぐ
 	if (![self isRequireReSendAPI]) {
-		//return;
+		return;
 	}
 
 	// 距離がNearのビーコンリストを作成する
@@ -170,7 +171,11 @@ static ALMCentralManager *_sharedInstance = nil;
 	// APIでサーバーに送信
 	_sentAPIDate = [NSDate date];
 
-	// TODO
+    ALMAPIFetcher *APIFetcher = [ALMAPIFetcher sharedManager];
+    [APIFetcher checkMatch:nearBeacons success:^(id responseObject) {} failure:^(NSError *error) {}];
+    
+    NSLog(@"%@ checkMatch API", NSStringFromSelector(_cmd));
+
 }
 
 /**

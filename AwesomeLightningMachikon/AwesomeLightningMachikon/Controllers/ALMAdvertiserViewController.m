@@ -51,6 +51,10 @@
 #pragma mark - action
 -(IBAction)send:(id)sender
 {
+    ALMAPIFetcher *APIFetcher = [ALMAPIFetcher sharedManager];
+	
+    [APIFetcher registerAnswers:postData success:^(id responseObject) {} failure:^(NSError *error) {}];
+    
     NSString *path = [[NSBundle mainBundle] pathForResource:@"sample" ofType:@"mp3"];
     NSURL *url = [NSURL fileURLWithPath:path];
     audioPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:url error:nil];

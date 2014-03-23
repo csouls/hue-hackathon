@@ -12,7 +12,9 @@
 @interface ALMAdvertiserViewController : UIViewController
 {
     IBOutlet UIButton *sendButton;
-    IBOutlet UIImageView *running;
+    IBOutlet UIImageView *backgroundView;
+    
+    IBOutlet UIImageView *runningView;
     
     NSDictionary *postData;
     

@@ -399,7 +399,7 @@ r0
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesd4992bee09deb841^27122cee09deb841^---0#1#1#--18"Check dependencies36"A99F61F4-2945-46E5-9056-4541D54CD53C-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies09fa2f9416deb841^fa97309416deb841^---0#1#1#--18"Check dependencies36"E94EE06A-A091-4280-A43C-DFA333098A55-
 
 CCompileC /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AFNetworking.build/Objects-normal/i386/AFHTTPRequestOperation.o /Users/yamamoto/Documents/Xcode/hue-hackathon/AwesomeLightningMachikon/Pods/AFNetworking/AFNetworking/AFHTTPRequestOperation.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s417198198.591068

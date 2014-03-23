@@ -12,23 +12,22 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" id="Y8p-uQ-sqk" customClass="ALMStartView">
-                                <rect key="frame" x="0.0" y="410" width="320" height="158"/>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="title_bg" id="ayb-EO-Uqq">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Una-RU-bef">
+                                <rect key="frame" x="44" y="441" width="233" height="51"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="rAv-Ff-iAS">
-                                        <rect key="frame" x="130" y="64" width="60" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" title="スタート">
-                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
-                                        <connections>
-                                            <segue destination="K9N-1P-zj9" kind="push" id="x9A-iW-O3X"/>
-                                        </connections>
-                                    </button>
-                                </subviews>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                            </view>
+                                <state key="normal" image="main_start_off">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected" image="main_start_on"/>
+                                <state key="highlighted" image="main_start_on"/>
+                                <connections>
+                                    <segue destination="K9N-1P-zj9" kind="push" id="dsJ-0G-ViA"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -107,58 +106,62 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="bi4-PR-Czu">
-                                <rect key="frame" x="20" y="379" width="280" height="30"/>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="q_bg" id="zjc-Go-AQH">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="bi4-PR-Czu">
+                                <rect key="frame" x="0.0" y="336" width="320" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="たたかう">
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal" title="たたかう" backgroundImage="q_01_off">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <state key="selected" backgroundImage="q_01_on"/>
                             </button>
                             <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="KB6-Ax-W5F">
-                                <rect key="frame" x="20" y="417" width="280" height="30"/>
+                                <rect key="frame" x="0.0" y="394" width="320" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="にげる">
+                                <state key="normal" title="にげる" backgroundImage="q_02_off">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
                             <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="EX6-o8-YnL">
-                                <rect key="frame" x="20" y="450" width="280" height="30"/>
+                                <rect key="frame" x="0.0" y="450" width="320" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="もってかえる">
+                                <state key="normal" title="もってかえる" backgroundImage="q_03_off">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected" backgroundImage="q_03_on">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
                             <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="js4-VF-iOb">
-                                <rect key="frame" x="20" y="483" width="280" height="30"/>
+                                <rect key="frame" x="0.0" y="506" width="320" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="まほう">
+                                <state key="normal" title="まほう" backgroundImage="q_04_off">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <state key="selected" backgroundImage="q_04_on">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
                             </button>
-                            <view contentMode="scaleToFill" id="VWJ-0V-dJm">
-                                <rect key="frame" x="20" y="35" width="280" height="327"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <subviews>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="子犬が仲間になりたそうに、こちらを見ている。どうする？" selectable="NO" id="Ezs-0J-FJP">
-                                        <rect key="frame" x="0.0" y="0.0" width="280" height="164"/>
-                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="31"/>
-                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                    </textView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="78U-ci-gNK">
-                                        <rect key="frame" x="0.0" y="163" width="280" height="164"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    </imageView>
-                                </subviews>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                            </view>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="子犬が仲間になりたそうに、こちらを見ている。どうする？" selectable="NO" id="Ezs-0J-FJP">
+                                <rect key="frame" x="20" y="96" width="280" height="142"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.0" colorSpace="calibratedRGB"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="31"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="OT9-Hi-sZc"/>
                     <connections>
-                        <outlet property="examPicture" destination="78U-ci-gNK" id="V9X-U0-O8T"/>
                         <outlet property="examSentence" destination="Ezs-0J-FJP" id="JwY-42-2Ou"/>
                         <outletCollection property="answerButtons" destination="bi4-PR-Czu" id="VCJ-Pe-7Ao"/>
                         <outletCollection property="answerButtons" destination="KB6-Ax-W5F" id="MTy-bP-vO2"/>
@@ -178,12 +181,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="7Uk-bZ-bi7">
-                                <rect key="frame" x="41" y="111" width="239" height="247"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Matikon_Net_Off" id="7Uk-bZ-bi7">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="xAP-80-LaF">
-                                <rect key="frame" x="145" y="459" width="30" height="30"/>
+                                <rect key="frame" x="145" y="462" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="送信">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -192,12 +195,17 @@
                                     <action selector="send:" destination="PJE-Iv-0sY" eventType="touchUpInside" id="UoE-9q-4as"/>
                                 </connections>
                             </button>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="Matikon_Net_Update" id="gf6-Ye-s5f">
+                                <rect key="frame" x="122" y="247" width="76" height="74"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                     <connections>
-                        <outlet property="running" destination="7Uk-bZ-bi7" id="IpV-ul-ksL"/>
+                        <outlet property="backgroundView" destination="7Uk-bZ-bi7" id="UzR-oh-TMN"/>
+                        <outlet property="runningView" destination="gf6-Ye-s5f" id="iS2-wN-9Hd"/>
                         <outlet property="sendButton" destination="xAP-80-LaF" id="4D4-JM-R9A"/>
                     </connections>
                 </viewController>
@@ -224,6 +232,21 @@
             <point key="canvasLocation" x="442" y="44"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Matikon_Net_Off" width="320" height="568"/>
+        <image name="Matikon_Net_Update" width="76" height="74"/>
+        <image name="main_start_off" width="178" height="51"/>
+        <image name="main_start_on" width="178" height="51"/>
+        <image name="q_01_off" width="640" height="96"/>
+        <image name="q_01_on" width="640" height="96"/>
+        <image name="q_02_off" width="320" height="48"/>
+        <image name="q_03_off" width="320" height="48"/>
+        <image name="q_03_on" width="320" height="48"/>
+        <image name="q_04_off" width="320" height="48"/>
+        <image name="q_04_on" width="320" height="48"/>
+        <image name="q_bg" width="320" height="568"/>
+        <image name="title_bg" width="320" height="568"/>
+    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

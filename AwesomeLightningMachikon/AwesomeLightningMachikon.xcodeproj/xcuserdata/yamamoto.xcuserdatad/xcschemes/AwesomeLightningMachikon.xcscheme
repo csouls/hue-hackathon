@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "FFDD267818DD7DE000557A31"
-               BuildableName = "AwesomeLightningMachikon.app"
-               BlueprintName = "AwesomeLightningMachikon"
+               BuildableName = "AwesomeLighteningMachikon.app"
+               BlueprintName = "AwesomeLighteningMachikon"
                ReferencedContainer = "container:AwesomeLightningMachikon.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -43,8 +43,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "FFDD267818DD7DE000557A31"
-            BuildableName = "AwesomeLightningMachikon.app"
-            BlueprintName = "AwesomeLightningMachikon"
+            BuildableName = "AwesomeLighteningMachikon.app"
+            BlueprintName = "AwesomeLighteningMachikon"
             ReferencedContainer = "container:AwesomeLightningMachikon.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -62,8 +62,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "FFDD267818DD7DE000557A31"
-            BuildableName = "AwesomeLightningMachikon.app"
-            BlueprintName = "AwesomeLightningMachikon"
+            BuildableName = "AwesomeLighteningMachikon.app"
+            BlueprintName = "AwesomeLighteningMachikon"
             ReferencedContainer = "container:AwesomeLightningMachikon.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -80,8 +80,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "FFDD267818DD7DE000557A31"
-            BuildableName = "AwesomeLightningMachikon.app"
-            BlueprintName = "AwesomeLightningMachikon"
+            BuildableName = "AwesomeLighteningMachikon.app"
+            BlueprintName = "AwesomeLighteningMachikon"
             ReferencedContainer = "container:AwesomeLightningMachikon.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

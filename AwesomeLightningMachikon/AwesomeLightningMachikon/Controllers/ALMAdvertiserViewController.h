@@ -16,7 +16,7 @@
     
     IBOutlet UIImageView *runningView;
     
-    NSDictionary *postData;
+    NSMutableDictionary *postData;
     
     /// １秒に一回POSTするよう
     NSTimer *timer;

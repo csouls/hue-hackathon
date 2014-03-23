@@ -31,7 +31,9 @@
     [super viewDidLoad];
     // 結局UUIDはいらない？
     NSUUID *vendorUUID = [UIDevice currentDevice].identifierForVendor;
-    postData = [self loadExam:@"ALMAnswers"];
+    //postData = [self loadExam:@"ALMAnswers"];
+    postData = [[NSMutableDictionary alloc] init];
+    [postData setObject:[self loadExam:@"ALMAnswers"] forKey:@"Questions"];
     [postData setValue:vendorUUID.UUIDString forKey:@"device_token"];
     [postData setValue:[[NSNumber alloc] initWithInt:1] forKey:@"monor_id"];
 }

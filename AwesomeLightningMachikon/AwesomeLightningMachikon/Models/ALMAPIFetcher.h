@@ -39,4 +39,6 @@
  */
 - (void)registerAnswers:(NSDictionary *)answers success:(HTTPSuccessBlock)successBlock failure:(HTTPFailureBlock)failureBlock;
 
+- (void)checkMatch:(NSArray *)minors success:(HTTPSuccessBlock)successBlock failure:(HTTPFailureBlock)failureBlock;
+
 @end

@@ -62,18 +62,42 @@ static ALMAPIFetcher *_sharedInstance = nil;
  */
 - (void)registerAnswers:(NSDictionary *)answers success:(HTTPSuccessBlock)successBlock failure:(HTTPFailureBlock)failureBlock
 {
-    // 仮
-    _deviceToken = @"1";
+    //NSArray *answerList = @[@"A", @"B"];
     
-    NSArray *answerList = @[@"A", @"B"];
-    
-    NSDictionary *parameters = @{@"minor_id":@(1), @"questions": answerList};
+    NSDictionary *parameters = @{@"minor_id":@(_minor), @"questions": answers};
  
     NSError *error;
     
     NSURLSessionConfiguration *configuration = [NSURLSessionConfiguration defaultSessionConfiguration];
     NSURLSession *session = [NSURLSession sessionWithConfiguration:configuration delegate:nil delegateQueue:nil];
     NSURL *url = [NSURL URLWithString:@"http://192.168.1.56:3000/questions"];
+    NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:url
+                                                           cachePolicy:NSURLRequestUseProtocolCachePolicy
+                                                       timeoutInterval:60.0];
+    
+    [request addValue:@"application/json" forHTTPHeaderField:@"Content-type"];
+    
+    [request setHTTPMethod:@"POST"];
+    
+    NSData *postData = [NSJSONSerialization dataWithJSONObject:parameters options:0 error:&error];
+    [request setHTTPBody:postData];
+    
+    NSURLSessionDataTask *postDataTask = [session dataTaskWithRequest:request completionHandler:^(NSData *data, NSURLResponse *response, NSError *error) {
+        
+    }];
+    
+    [postDataTask resume];
+}
+
+- (void)checkMatch:(NSArray *)minors success:(HTTPSuccessBlock)successBlock failure:(HTTPFailureBlock)failureBlock
+{
+    NSDictionary *parameters = @{@"from_minor_id":@(_minor), @"match_minor_ids": minors};
+    
+    NSError *error;
+    
+    NSURLSessionConfiguration *configuration = [NSURLSessionConfiguration defaultSessionConfiguration];
+    NSURLSession *session = [NSURLSession sessionWithConfiguration:configuration delegate:nil delegateQueue:nil];
+    NSURL *url = [NSURL URLWithString:@"http://192.168.1.56:3000/matches"];
     NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:url
                                                            cachePolicy:NSURLRequestUseProtocolCachePolicy
                                                        timeoutInterval:60.0];

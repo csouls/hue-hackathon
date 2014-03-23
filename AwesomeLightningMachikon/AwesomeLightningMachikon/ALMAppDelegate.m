@@ -24,7 +24,9 @@
     ALMAPIFetcher *APIFetcher = [ALMAPIFetcher sharedManager];
 //    [APIFetcher registerDevice:@"2" success:^(id responseObject) {} failure:^(NSError *error){}];
 //    [APIFetcher registerAnswers:nil success:^(id responseObject) {} failure:^(NSError *error){}];
-    [APIFetcher registerAnswers:nil success:^(id responseObject) {} failure:^(NSError *error) {}];
+    //[APIFetcher registerAnswers:nil success:^(id responseObject) {} failure:^(NSError *error) {}];
+    
+    [APIFetcher checkMatch:@[@"2", @"3"] success:^(id responseObject) {} failure:^(NSError *error) {}];
     
     // APNS
     

@@ -6,8 +6,6 @@
 //  Copyright (c) 2014年 machikons. All rights reserved.
 //
 
-#import <AudioToolbox/AudioServices.h>
-
 #import "ALMAdvertiserViewController.h"
 #import "AFHTTPRequestOperationManager.h"
 #import "ALMAPIFetcher.h"
@@ -53,6 +51,13 @@
 #pragma mark - action
 -(IBAction)send:(id)sender
 {
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"sample" ofType:@"mp3"];
+    NSURL *url = [NSURL fileURLWithPath:path];
+    audioPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:url error:nil];
+    audioPlayer.volume = 0.5;
+    [audioPlayer prepareToPlay];
+    [audioPlayer play];
+    
     UIButton *button = sender;
     if(!isSending)
     {

@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
+#import<AVFoundation/AVFoundation.h>
+#import <AudioToolbox/AudioServices.h>
+
 @interface ALMQuestionViewController : UIViewController
 {
     IBOutletCollection(UIButton) NSArray *answerButtons;
@@ -17,6 +20,8 @@
     
     /// 出題写真
     IBOutlet UIImageView *examPicture;
+    
+    AVAudioPlayer *audioPlayer;
     
 }
 

@@ -8,7 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
+#import<AVFoundation/AVFoundation.h>
+#import <AudioToolbox/AudioServices.h>
+
 @interface ALMAppDelegate : UIResponder <UIApplicationDelegate>
+{
+    AVAudioPlayer *audioPlayer;
+}
 
 @property (strong, nonatomic) UIWindow *window;
 

@@ -111,6 +111,7 @@ static int NUMBER = 0;
         ALMAdvertiserViewController *controller = [self.storyboard instantiateViewControllerWithIdentifier:@"Advertiser"];
         [self.navigationController pushViewController:controller animated:YES];
     }
+    
 }
 
 #pragma mark - private

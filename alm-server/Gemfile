@@ -31,6 +31,8 @@ gem 'houston'
 # Model annotation
 gem 'annotate'
 
+gem 'parallel'
+
 # Testing flameworks and development support gems
 group :test, :development do
   gem 'rspec'

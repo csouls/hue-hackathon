@@ -70,7 +70,7 @@
 		5AECDF3618DDA3240089F166 /* ALMCentralManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALMCentralManager.h; sourceTree = "<group>"; };
 		5AECDF3718DDA3240089F166 /* ALMCentralManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALMCentralManager.m; sourceTree = "<group>"; };
 		6B8C9FD761014B389CAC6258 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
-		FFDD267918DD7DE000557A31 /* AwesomeLightningMachikon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AwesomeLightningMachikon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFDD267918DD7DE000557A31 /* AwesomeLighteningMachikon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AwesomeLighteningMachikon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFDD267C18DD7DE000557A31 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FFDD267E18DD7DE000557A31 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		FFDD268018DD7DE000557A31 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -171,7 +171,7 @@
 		FFDD267A18DD7DE000557A31 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FFDD267918DD7DE000557A31 /* AwesomeLightningMachikon.app */,
+				FFDD267918DD7DE000557A31 /* AwesomeLighteningMachikon.app */,
 				FFDD269A18DD7DE000557A31 /* AwesomeLightningMachikonTests.xctest */,
 			);
 			name = Products;
@@ -264,9 +264,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FFDD267818DD7DE000557A31 /* AwesomeLightningMachikon */ = {
+		FFDD267818DD7DE000557A31 /* AwesomeLighteningMachikon */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FFDD26AB18DD7DE000557A31 /* Build configuration list for PBXNativeTarget "AwesomeLightningMachikon" */;
+			buildConfigurationList = FFDD26AB18DD7DE000557A31 /* Build configuration list for PBXNativeTarget "AwesomeLighteningMachikon" */;
 			buildPhases = (
 				C0255F9AA550438D8D4B7AC3 /* Check Pods Manifest.lock */,
 				FFDD267518DD7DE000557A31 /* Sources */,
@@ -278,9 +278,9 @@
 			);
 			dependencies = (
 			);
-			name = AwesomeLightningMachikon;
+			name = AwesomeLighteningMachikon;
 			productName = AwesomeLightningMachikon;
-			productReference = FFDD267918DD7DE000557A31 /* AwesomeLightningMachikon.app */;
+			productReference = FFDD267918DD7DE000557A31 /* AwesomeLighteningMachikon.app */;
 			productType = "com.apple.product-type.application";
 		};
 		FFDD269918DD7DE000557A31 /* AwesomeLightningMachikonTests */ = {
@@ -311,6 +311,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = machikons;
 				TargetAttributes = {
+					FFDD267818DD7DE000557A31 = {
+						DevelopmentTeam = 8Y439RUF7P;
+					};
 					FFDD269918DD7DE000557A31 = {
 						TestTargetID = FFDD267818DD7DE000557A31;
 					};
@@ -329,7 +332,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FFDD267818DD7DE000557A31 /* AwesomeLightningMachikon */,
+				FFDD267818DD7DE000557A31 /* AwesomeLighteningMachikon */,
 				FFDD269918DD7DE000557A31 /* AwesomeLightningMachikonTests */,
 			);
 		};
@@ -424,7 +427,7 @@
 /* Begin PBXTargetDependency section */
 		FFDD26A018DD7DE000557A31 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FFDD267818DD7DE000557A31 /* AwesomeLightningMachikon */;
+			target = FFDD267818DD7DE000557A31 /* AwesomeLighteningMachikon */;
 			targetProxy = FFDD269F18DD7DE000557A31 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -533,12 +536,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "Apple Development IOS Push Services: com.molabo.AwesomeLighteningMachikon";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AwesomeLightningMachikon/AwesomeLightningMachikon-Prefix.pch";
 				INFOPLIST_FILE = "AwesomeLightningMachikon/AwesomeLightningMachikon-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "B14BD866-FBCE-4687-AE1F-D37C8D1637A4";
+				PROVISIONING_PROFILE = "377DD63F-DBE6-4A6E-ABE3-E0DC8A3F96AC";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -549,12 +553,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "Apple Development IOS Push Services: com.molabo.AwesomeLighteningMachikon";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AwesomeLightningMachikon/AwesomeLightningMachikon-Prefix.pch";
 				INFOPLIST_FILE = "AwesomeLightningMachikon/AwesomeLightningMachikon-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "B14BD866-FBCE-4687-AE1F-D37C8D1637A4";
+				PROVISIONING_PROFILE = "377DD63F-DBE6-4A6E-ABE3-E0DC8A3F96AC";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -611,7 +616,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FFDD26AB18DD7DE000557A31 /* Build configuration list for PBXNativeTarget "AwesomeLightningMachikon" */ = {
+		FFDD26AB18DD7DE000557A31 /* Build configuration list for PBXNativeTarget "AwesomeLighteningMachikon" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FFDD26AC18DD7DE000557A31 /* Debug */,

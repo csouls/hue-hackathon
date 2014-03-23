@@ -19,6 +19,14 @@
     //ALMPeripheralManager *peripheralManager = [ALMPeripheralManager sharedManager];
     
     // Override point for customization after application launch.
+    
+    
+    // APNS
+    
+    [[UIApplication sharedApplication]
+     registerForRemoteNotificationTypes:(UIRemoteNotificationTypeAlert |
+                                         UIRemoteNotificationTypeBadge |
+                                         UIRemoteNotificationTypeSound)];
     return YES;
 }
 							
@@ -47,6 +55,39 @@
 - (void)applicationWillTerminate:(UIApplication *)application
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+#pragma mark - p
+
+- (void)application:(UIApplication *)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken
+{
+    NSString *dToken = [[[[deviceToken description]
+                               stringByReplacingOccurrencesOfString:@"<"withString:@""]
+                              stringByReplacingOccurrencesOfString:@">" withString:@""]
+                             stringByReplacingOccurrencesOfString: @" " withString: @""];
+    NSLog(@"apns succeeded. deviceToken >> %@",dToken);
+    
+    [[[UIAlertView alloc] initWithTitle:@"success"
+                                message:dToken
+                               delegate:nil
+                      cancelButtonTitle:@"OK"
+                      otherButtonTitles:nil, nil] show];
+}
+
+- (void)application:(UIApplication *)application didFailToRegisterForRemoteNotificationsWithError:(NSError *)error
+{
+    NSLog(@"apns failed. error >> %@", [error localizedDescription]);
+    
+    [[[UIAlertView alloc] initWithTitle:@"fail"
+                                message:nil
+                               delegate:nil
+                      cancelButtonTitle:@"OK"
+                      otherButtonTitles:nil, nil] show];
+}
+
+- (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo
+{
+    NSLog(@"did receive RemoteNotification");
 }
 
 @end

@@ -39,7 +39,7 @@
 #pragma mark - Send HTTP Request
 
 /**
- *  非同期通信のAPIリクエスト送信する(GET)
+ *  非同期通信のAPIリクエスト送信する(POST)
  *
  *  @param url             リクエストURL
  *  @param completionBlock completionBlock
@@ -50,6 +50,7 @@
 	NSLog(@"url = %@", url);
     
     AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
+    manager.responseSerializer.acceptableContentTypes = [NSSet setWithObject:@"application/json"];
     [manager POST:url  parameters:parameters success:^(AFHTTPRequestOperation *operation, id responseObject) {
         completionBlock(responseObject);
     } failure:^(AFHTTPRequestOperation *operation, NSError *error) {

@@ -28,12 +28,12 @@
 - (void)registerDevice:(NSString *)deviceToken success:(HTTPSuccessBlock)successBlock failure:(HTTPFailureBlock)failureBlock;
 
 /**
- *  UUIDを条件にして全メッセージを取得してmessagesを更新する
+ *  質問情報を送信する
  *
- *  @param uuid         UUID
+ *  @param deviceToken  デバイストークン
  *  @param successBlock successBlock
  *  @param failureBlock failureBlock
  */
-- (void)fetchAllMessagesByUUID:(NSString *)uuid success:(HTTPSuccessBlock)successBlock failure:(HTTPFailureBlock)failureBlock;
+- (void)registerAnswers:(NSDictionary *)answers success:(HTTPSuccessBlock)successBlock failure:(HTTPFailureBlock)failureBlock;
 
 @end

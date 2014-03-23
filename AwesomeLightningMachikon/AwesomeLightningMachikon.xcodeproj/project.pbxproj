@@ -221,9 +221,9 @@
 		FFDD268218DD7DE000557A31 /* AwesomeLightningMachikon */ = {
 			isa = PBXGroup;
 			children = (
-				5A96530518DE83840013C9D1 /* Commons */,
 				FFDD268B18DD7DE000557A31 /* ALMAppDelegate.h */,
 				FFDD268C18DD7DE000557A31 /* ALMAppDelegate.m */,
+				5A96530518DE83840013C9D1 /* Commons */,
 				FFDD26B718DD837B00557A31 /* Controllers */,
 				FFDD26BF18DD837B00557A31 /* Views */,
 				5AECDF3518DDA2FA0089F166 /* Models */,

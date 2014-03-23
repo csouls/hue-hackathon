@@ -21,9 +21,6 @@
     ALMCentralManager *centralManager = [ALMCentralManager sharedManager];
     //ALMPeripheralManager *peripheralManager = [ALMPeripheralManager sharedManager];
     
-    ALMAPIFetcher *APIFetcher = [ALMAPIFetcher sharedManager];
-    [APIFetcher registerDevice:nil success:^(id responseObject) {} failure:^(NSError *error){}];
-        
     // APNS
     
     [[UIApplication sharedApplication]
@@ -63,19 +60,22 @@
 
 #pragma mark - p
 
-- (void)application:(UIApplication *)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken
+- (void)application:(UIApplication *)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)devToken
 {
-    NSString *dToken = [[[[deviceToken description]
+    NSString *deviceToken = [[[[devToken description]
                                stringByReplacingOccurrencesOfString:@"<"withString:@""]
                               stringByReplacingOccurrencesOfString:@">" withString:@""]
                              stringByReplacingOccurrencesOfString: @" " withString: @""];
-    NSLog(@"apns succeeded. deviceToken >> %@",dToken);
+    NSLog(@"apns succeeded. deviceToken >> %@",deviceToken);
     
     [[[UIAlertView alloc] initWithTitle:@"success"
-                                message:dToken
+                                message:deviceToken
                                delegate:nil
                       cancelButtonTitle:@"OK"
                       otherButtonTitles:nil, nil] show];
+    
+    ALMAPIFetcher *APIFetcher = [ALMAPIFetcher sharedManager];
+    [APIFetcher registerDevice:deviceToken success:^(id responseObject) {} failure:^(NSError *error){}];
 }
 
 - (void)application:(UIApplication *)application didFailToRegisterForRemoteNotificationsWithError:(NSError *)error

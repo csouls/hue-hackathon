@@ -11,7 +11,7 @@ class MatchesController < ApplicationController
     likables.select! {|affinity| affinity.level == max_level }
     send = likables.sample
     devices = Device.where(id: [send.from_device_id, send.to_device_id])
-    notification(devices)
+    send_notification(devices)
 
     lighting(ip, max_level)
     render json: {}
@@ -64,7 +64,7 @@ class MatchesController < ApplicationController
     end
   end
 
-  def notification(devices)
+  def send_notification(devices)
     client = Rails.env.production? ? Houston::Client.production : Houston::Client.development
     client.certificate = File.read(Settings.apns.pem)
 

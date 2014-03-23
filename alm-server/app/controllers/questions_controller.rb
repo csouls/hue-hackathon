@@ -2,13 +2,13 @@ class QuestionsController < ApplicationController
   # POST /questions
   # POST /questions.json
   def create(minor_id, device_token, questions)
-    device = Device.find(minor_id)
+    device = Device.find(minor_id.to_i)
     device.device_token = device_token
     device.save!
 
     Question.delete_all(device_id: device.id)
     records = questions.map.with_index do |answer, question|
-      Question.create(device_id: device.id, question: question + 1, answer: answer)
+      Question.create(device_id: device.id, question: question.to_i + 1, answer: answer)
     end
 
     Affinity.delete_all(from_device_id: device.id)

@@ -6,12 +6,15 @@ class QuestionsController < ApplicationController
     device.device_token = device_token
     device.save!
 
+    Question.delete_all(device_id: device.id)
     records = questions.map do |qhash|
       qhash.map do |question, answer|
         Question.create(device_id: device.id, question: question.to_i, answer: answer)
       end
     end.flatten
 
+    Affinity.delete_all(from_device_id: device.id)
+    Affinity.delete_all(to_device_id: device.id)
     Device.where('id != ?', device.id).each do |other_device|
       level = 0
       other_device.questions.each do |question|

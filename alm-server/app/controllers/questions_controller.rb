@@ -1,24 +1,13 @@
-class BeaconsController < ApplicationController
-  # POST /beacons
-  # POST /beacons.json
+class QuestionsController < ApplicationController
+  # POST /questions
+  # POST /questions.json
   def create(minor_id, device_token, questions)
-    key = cache_key(device_id)
+    device = Device.find(minor_id)
+    device.device_token = device_token
+    device.save!
 
-    @beacon = Rails.cache.read(key)
-    unless @beacon
-      @beacon = {
-        major_id: Settings.beacon.major_id,
-        minor_id: Rails.cache.increment(:minor_id),
-      }
-      Rails.cache.write(key, @beacon)
+    questions.each do |question, answer|
+      Question.create(device_id: device.id, question: question.to_i, answer: answer)
     end
-
-    render json: @beacon
-  end
-
-  private
-
-  def cache_key(id)
-    "beacons:#{id}"
   end
 end

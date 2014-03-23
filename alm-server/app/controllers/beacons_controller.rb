@@ -12,10 +12,4 @@ class BeaconsController < ApplicationController
 
     render json: {major_id: @device.major_id, minor_id: @device.id}
   end
-
-  private
-
-  def cache_key(id)
-    "beacons:#{id}"
-  end
 end

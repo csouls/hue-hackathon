@@ -11,7 +11,15 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140323014434) do
+ActiveRecord::Schema.define(version: 20140323021753) do
+
+  create_table "affinities", force: true do |t|
+    t.integer  "from_device_id",             null: false
+    t.integer  "to_device_id",               null: false
+    t.integer  "level",          default: 0, null: false
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "devices", force: true do |t|
     t.string   "device_id",    null: false
@@ -20,5 +28,15 @@ ActiveRecord::Schema.define(version: 20140323014434) do
     t.datetime "created_at"
     t.datetime "updated_at"
   end
+
+  create_table "questions", force: true do |t|
+    t.integer  "device_id"
+    t.integer  "question"
+    t.string   "answer"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "questions", ["device_id", "question"], name: "index_questions_on_device_id_and_question", using: :btree
 
 end

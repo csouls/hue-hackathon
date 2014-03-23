@@ -14,5 +14,6 @@
 
 FactoryGirl.define do
   factory :device do
+    device_id "599F9C00-92DC-4B5C-9464-7971F01F8370"
   end
 end

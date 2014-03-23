@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="3wC-ka-Nrh">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5053" systemVersion="13C64" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="3wC-ka-Nrh">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -237,8 +237,8 @@
         <image name="Matikon_Net_Update" width="76" height="74"/>
         <image name="main_start_off" width="178" height="51"/>
         <image name="main_start_on" width="178" height="51"/>
-        <image name="q_01_off" width="640" height="96"/>
-        <image name="q_01_on" width="640" height="96"/>
+        <image name="q_01_off" width="320" height="48"/>
+        <image name="q_01_on" width="320" height="48"/>
         <image name="q_02_off" width="320" height="48"/>
         <image name="q_03_off" width="320" height="48"/>
         <image name="q_03_on" width="320" height="48"/>

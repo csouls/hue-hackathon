@@ -16,11 +16,16 @@
 @implementation ALMAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
+    NSUserDefaults *ud = [NSUserDefaults standardUserDefaults];
+    [ud removeObjectForKey:@"questions"];
+    [ud synchronize];
+    
 	// TODO 仮
 	ALMCentralManager *centralManager = [ALMCentralManager sharedManager];
 	ALMPeripheralManager *peripheralManager = [ALMPeripheralManager sharedManager];
 
-	//ALMAPIFetcher *APIFetcher = [ALMAPIFetcher sharedManager];
+//	ALMAPIFetcher *APIFetcher = [ALMAPIFetcher sharedManager];
 //    [APIFetcher registerDevice:@"2" success:^(id responseObject) {} failure:^(NSError *error){}];
 //    [APIFetcher registerAnswers:nil success:^(id responseObject) {} failure:^(NSError *error){}];
 	//[APIFetcher registerAnswers:nil success:^(id responseObject) {} failure:^(NSError *error) {}];
@@ -70,15 +75,16 @@
 	                          stringByReplacingOccurrencesOfString:@">" withString:@""]
 	                         stringByReplacingOccurrencesOfString:@" " withString:@""];
 	NSLog(@"apns succeeded. deviceToken >> %@", deviceToken);
-
-	[[[UIAlertView alloc] initWithTitle:@"success"
-	                            message:deviceToken
-	                           delegate:nil
-	                  cancelButtonTitle:@"OK"
-	                  otherButtonTitles:nil, nil] show];
-
+    
 	ALMAPIFetcher *APIFetcher = [ALMAPIFetcher sharedManager];
-	[APIFetcher registerDevice:deviceToken success: ^(id responseObject) {} failure: ^(NSError *error) {}];
+	[APIFetcher registerDevice:deviceToken success: ^(id responseObject) {
+        
+        [[[UIAlertView alloc] initWithTitle:@"success"
+                                    message:[NSString stringWithFormat:@"%@: minor %lu",deviceToken, (unsigned long)APIFetcher.minor]
+                                   delegate:nil
+                          cancelButtonTitle:@"OK"
+                          otherButtonTitles:nil, nil] show];
+    } failure: ^(NSError *error) {}];
 }
 
 - (void)application:(UIApplication *)application didFailToRegisterForRemoteNotificationsWithError:(NSError *)error {

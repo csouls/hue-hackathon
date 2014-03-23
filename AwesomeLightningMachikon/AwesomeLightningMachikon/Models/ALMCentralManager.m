@@ -142,7 +142,7 @@ static ALMCentralManager *_sharedInstance = nil;
 	for (CLBeacon *beacon in region.beacons) {
 		CLProximity proximity = beacon.proximity;
 		if (proximity == CLProximityNear) {
-			[nearBeacons addObject:beacon];
+			[nearBeacons addObject:beacon.minor];
 		}
 
 		// デバッグ
@@ -172,6 +172,7 @@ static ALMCentralManager *_sharedInstance = nil;
 	_sentAPIDate = [NSDate date];
 
     ALMAPIFetcher *APIFetcher = [ALMAPIFetcher sharedManager];
+    
     [APIFetcher checkMatch:nearBeacons success:^(id responseObject) {} failure:^(NSError *error) {}];
     
     NSLog(@"%@ checkMatch API", NSStringFromSelector(_cmd));

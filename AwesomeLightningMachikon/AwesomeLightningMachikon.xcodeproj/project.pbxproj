@@ -39,6 +39,7 @@
 		FFDD26C018DD837B00557A31 /* ALMAdvertiserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFDD26B918DD837B00557A31 /* ALMAdvertiserViewController.m */; };
 		FFDD26C118DD837B00557A31 /* ALMQuestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFDD26BB18DD837B00557A31 /* ALMQuestionViewController.m */; };
 		FFDD26C218DD837B00557A31 /* ALMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFDD26BD18DD837B00557A31 /* ALMViewController.m */; };
+		FFE547AF18DEB8DE0030ADD1 /* ALMReceiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE547AE18DEB8DE0030ADD1 /* ALMReceiveViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -99,6 +100,8 @@
 		FFDD26BB18DD837B00557A31 /* ALMQuestionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALMQuestionViewController.m; sourceTree = "<group>"; };
 		FFDD26BC18DD837B00557A31 /* ALMViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALMViewController.h; sourceTree = "<group>"; };
 		FFDD26BD18DD837B00557A31 /* ALMViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALMViewController.m; sourceTree = "<group>"; };
+		FFE547AD18DEB8DE0030ADD1 /* ALMReceiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALMReceiveViewController.h; sourceTree = "<group>"; };
+		FFE547AE18DEB8DE0030ADD1 /* ALMReceiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALMReceiveViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -269,11 +272,13 @@
 			isa = PBXGroup;
 			children = (
 				FFDD26B818DD837B00557A31 /* ALMAdvertiserViewController.h */,
-				FFDD26B918DD837B00557A31 /* ALMAdvertiserViewController.m */,
 				FFDD26BA18DD837B00557A31 /* ALMQuestionViewController.h */,
 				FFDD26BB18DD837B00557A31 /* ALMQuestionViewController.m */,
+				FFDD26B918DD837B00557A31 /* ALMAdvertiserViewController.m */,
 				FFDD26BC18DD837B00557A31 /* ALMViewController.h */,
 				FFDD26BD18DD837B00557A31 /* ALMViewController.m */,
+				FFE547AD18DEB8DE0030ADD1 /* ALMReceiveViewController.h */,
+				FFE547AE18DEB8DE0030ADD1 /* ALMReceiveViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -426,6 +431,7 @@
 			files = (
 				5A9F2A7918DDC49600448630 /* ALMPeripheralManager.m in Sources */,
 				405CA8F818DDAC8F0024D844 /* ALMStartView.m in Sources */,
+				FFE547AF18DEB8DE0030ADD1 /* ALMReceiveViewController.m in Sources */,
 				5A96530918DE83840013C9D1 /* ALMHTTPFetcher.m in Sources */,
 				5A96530C18DE838C0013C9D1 /* ALMAPIFetcher.m in Sources */,
 				FFDD268918DD7DE000557A31 /* main.m in Sources */,

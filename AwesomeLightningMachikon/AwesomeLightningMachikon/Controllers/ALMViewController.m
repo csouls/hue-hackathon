@@ -7,6 +7,7 @@
 //
 
 #import "ALMViewController.h"
+#import "ALMAPIFetcher.h"
 
 @interface ALMViewController ()
 

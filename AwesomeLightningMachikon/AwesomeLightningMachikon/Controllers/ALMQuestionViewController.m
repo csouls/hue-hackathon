@@ -95,7 +95,18 @@ static int NUMBER = 0;
     
     NSDictionary *dict = @{
                            [[NSString alloc] initWithFormat:@"%d",NUMBER] :
-                           [[NSString alloc] initWithFormat:@"%c",button.tag + 'A'-1]};
+                           [[NSString alloc] initWithFormat:@"%c",button.tag + 'A'-1]
+                           };
+    
+    NSUserDefaults *ud = [NSUserDefaults standardUserDefaults];
+    [ud registerDefaults:@{@"questions":@[]}];
+    NSMutableArray *arr = [[ud objectForKey:@"questions"] mutableCopy];
+    [arr addObject:dict];
+    [ud setObject:[NSArray arrayWithArray:arr
+                   ] forKey:@"questions"];
+    [ud synchronize];
+    
+    [ud objectForKey:@"questions"];
     
     [self saveAnswer:dict];
     // 引き続き質問

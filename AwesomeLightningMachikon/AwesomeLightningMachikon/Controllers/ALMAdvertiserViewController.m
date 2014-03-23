@@ -53,7 +53,11 @@
 {
     ALMAPIFetcher *APIFetcher = [ALMAPIFetcher sharedManager];
 	
-    [APIFetcher registerAnswers:postData success:^(id responseObject) {} failure:^(NSError *error) {}];
+    NSUserDefaults *ud = [NSUserDefaults standardUserDefaults];
+    NSArray *arra = [ud objectForKey:@"questions"];
+    NSDictionary *dict = @{@"Questions": arra};
+    
+    [APIFetcher registerAnswers:dict success:^(id responseObject) {} failure:^(NSError *error) {}];
     
     NSString *path = [[NSBundle mainBundle] pathForResource:@"sample" ofType:@"mp3"];
     NSURL *url = [NSURL fileURLWithPath:path];

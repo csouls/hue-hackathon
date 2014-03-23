@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import<AVFoundation/AVFoundation.h>
+#import <AudioToolbox/AudioServices.h>
 
 @interface ALMAdvertiserViewController : UIViewController
 {
@@ -22,6 +23,8 @@
     
     /// １秒に一回POSTするよう
     NSTimer *timer;
+    
+    AVAudioPlayer *audioPlayer;
     
 }
 

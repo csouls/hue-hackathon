@@ -29,4 +29,4 @@ class QuestionsController < ApplicationController
   def index(minor_id, device_token, questions)
     create(minor_id, device_token, questions)
   end
-end
+and

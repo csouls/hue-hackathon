@@ -338,10 +338,7 @@
 				ORGANIZATIONNAME = machikons;
 				TargetAttributes = {
 					FFDD267818DD7DE000557A31 = {
-						DevelopmentTeam = 52B56439YF;
-					};
-					FFDD269918DD7DE000557A31 = {
-						TestTargetID = FFDD267818DD7DE000557A31;
+						DevelopmentTeam = 8Y439RUF7P;
 					};
 				};
 			};

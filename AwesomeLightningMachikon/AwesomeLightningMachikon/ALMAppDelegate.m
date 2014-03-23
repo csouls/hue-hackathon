@@ -11,6 +11,8 @@
 #import "ALMPeripheralManager.h"
 #import "ALMAPIFetcher.h"
 
+@import AVFoundation;
+
 @implementation ALMAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
@@ -21,16 +23,14 @@
     
     ALMAPIFetcher *APIFetcher = [ALMAPIFetcher sharedManager];
     [APIFetcher registerDevice:nil success:^(id responseObject) {} failure:^(NSError *error){}];
-    
-    
-    // Override point for customization after application launch.
-    
+        
     // APNS
     
     [[UIApplication sharedApplication]
      registerForRemoteNotificationTypes:(UIRemoteNotificationTypeAlert |
                                          UIRemoteNotificationTypeBadge |
                                          UIRemoteNotificationTypeSound)];
+
     return YES;
 }
 							
@@ -91,7 +91,15 @@
 
 - (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo
 {
+    AudioServicesPlaySystemSound(kSystemSoundID_Vibrate);
+    
     NSLog(@"did receive RemoteNotification");
+    
+    [[[UIAlertView alloc] initWithTitle:@"receive Push"
+                               message:@"message"
+                              delegate:nil
+                     cancelButtonTitle:@"OK"
+                     otherButtonTitles:nil, nil] show];
 }
 
 @end

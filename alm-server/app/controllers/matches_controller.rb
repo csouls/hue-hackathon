@@ -17,6 +17,22 @@ class MatchesController < ApplicationController
     render json: {}
   end
 
+
+  def push_notification(device_token)
+    client = Houston::Client.development
+    client.certificate = File.read(Settings.apns.pem)
+
+    devices.each do |e|
+      notification = Houston::Notification.new
+      notification.token = device_token
+      notification.alert = "test" #option[:alert] if option[:alert]
+      #notification.badge = option[:badge] if option[:badge]
+      notification.sound = 'default'
+      #notification.content_available = content_available if content_available
+      client.push(notification)
+    end
+  end
+
   private
 
   def lighting(ip, level)

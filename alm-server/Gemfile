@@ -26,6 +26,9 @@ gem 'dalli'
 # iOS push notification
 gem 'houston'
 
+# Model annotation
+gem 'annotate'
+
 # Testing flameworks and development support gems
 group :test, :development do
   gem 'rspec'

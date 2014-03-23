@@ -172,7 +172,9 @@ static ALMCentralManager *_sharedInstance = nil;
 	_sentAPIDate = [NSDate date];
 
     ALMAPIFetcher *APIFetcher = [ALMAPIFetcher sharedManager];
-    //[APIFetcher checkMatch:nearBeacons success:^(id responseObject) {} failure:^(NSError *error) {}];
+    [APIFetcher checkMatch:nearBeacons success:^(id responseObject) {} failure:^(NSError *error) {}];
+    
+    NSLog(@"%@ checkMatch API", NSStringFromSelector(_cmd));
 
 }
 

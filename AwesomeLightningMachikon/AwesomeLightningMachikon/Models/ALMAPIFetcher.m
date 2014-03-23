@@ -64,7 +64,7 @@ static ALMAPIFetcher *_sharedInstance = nil;
 {
     //NSArray *answerList = @[@"A", @"B"];
     
-    NSDictionary *parameters = @{@"minor_id":@(_minor), @"questions": answers};
+    NSDictionary *parameters = @{@"minor_id":@(_minor), @"questions": [answers objectForKey:@"Questions"]};
  
     NSError *error;
     

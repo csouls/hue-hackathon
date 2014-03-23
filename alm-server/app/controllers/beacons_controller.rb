@@ -7,11 +7,10 @@ class BeaconsController < ApplicationController
       @device = Device.create(
         device_id: device_id,
         major_id: Settings.beacon.major_id,
-        minor_id: Rails.cache.increment(:minor_id),
       )
     end
 
-    render json: @device.as_json(only: [:major_id, :minor_id])
+    render json: {major_id: @device.major_id, minor_id: @device.id}
   end
 
   private

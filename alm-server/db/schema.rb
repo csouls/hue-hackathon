@@ -16,7 +16,6 @@ ActiveRecord::Schema.define(version: 20140323014434) do
   create_table "devices", force: true do |t|
     t.string   "device_id",    null: false
     t.integer  "major_id"
-    t.integer  "minor_id"
     t.string   "device_token"
     t.datetime "created_at"
     t.datetime "updated_at"

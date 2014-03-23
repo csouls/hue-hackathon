@@ -3,7 +3,6 @@ class CreateDevices < ActiveRecord::Migration
     create_table :devices do |t|
       t.string :device_id, null: false, index: true
       t.integer :major_id
-      t.integer :minor_id
       t.string :device_token
 
       t.timestamps

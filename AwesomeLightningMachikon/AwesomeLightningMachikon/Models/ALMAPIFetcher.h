@@ -11,6 +11,9 @@
 
 @interface ALMAPIFetcher : ALMHTTPFetcher
 
+@property (nonatomic, copy) NSString *deviceToken;
+@property (nonatomic, assign) NSUInteger minor;
+
 /**
  *  シングルトンオブジェクトを返す
  *

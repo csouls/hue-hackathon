@@ -66,6 +66,11 @@ static ALMPeripheralManager *_sharedInstance = nil;
     [self.manager startAdvertising:beaconPeripheralData];
 }
 
+- (void)stopAdvertizing
+{
+    [self.manager stopAdvertising];
+}
+
 - (NSDictionary *)beaconAdvertisement:(NSUUID *)proximityUUID
                                 major:(uint16_t)major
                                 minor:(uint16_t)minor
@@ -98,7 +103,7 @@ static ALMPeripheralManager *_sharedInstance = nil;
     switch (peripheral.state) {
         case CBPeripheralManagerStatePoweredOn:
             NSLog(@"CBPeripheralManagerStatePoweredOn");
-            [self startAdvertising:100];
+//            [self startAdvertising:100];
             
             break;
         case CBPeripheralManagerStatePoweredOff:

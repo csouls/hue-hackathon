@@ -10,9 +10,6 @@
 
 @interface ALMAPIFetcher()
 
-@property (nonatomic, copy) NSString *deviceToken;
-@property (nonatomic, copy) NSString *minor;
-
 @end
 
 @implementation ALMAPIFetcher
@@ -49,7 +46,7 @@ static ALMAPIFetcher *_sharedInstance = nil;
     
     [self sendAsynchronousPOSTRequest:@"http://192.168.1.56:3000/beacons" parameters:parameters success:^(id responseObject) {
         NSDictionary *result = (NSDictionary *)responseObject;
-        _minor = result[@"minor_id"];
+        _minor = [result[@"minor_id"] unsignedIntegerValue];
         successBlock(successBlock);
     } failure:^(NSError *error){
         failureBlock(error);
@@ -66,11 +63,11 @@ static ALMAPIFetcher *_sharedInstance = nil;
 - (void)registerAnswers:(NSDictionary *)answers success:(HTTPSuccessBlock)successBlock failure:(HTTPFailureBlock)failureBlock
 {
     // 仮
-    _deviceToken = @"1";
-    _minor = @"10";
+//    _deviceToken = @"1";
+//    _minor = @"10";
     answers = @{@"1":@"A", @"2":@"B", @"3":@"C", @"4":@"D", @"5":@"A",};
     
-    NSDictionary *parameters = @{@"minor_id":_minor, @"questions":answers};
+    NSDictionary *parameters = @{@"minor_id":@(_minor), @"questions":answers};
     
     [self sendAsynchronousPOSTRequest:@"http://192.168.1.56:3000/questions" parameters:parameters success:^(id responseObject) {
         /*

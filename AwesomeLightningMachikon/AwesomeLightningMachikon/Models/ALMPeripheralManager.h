@@ -20,4 +20,7 @@
  */
 + (ALMPeripheralManager *)sharedManager;
 
+- (void)startAdvertising:(NSInteger)minor;
+- (void)stopAdvertizing;
+
 @end

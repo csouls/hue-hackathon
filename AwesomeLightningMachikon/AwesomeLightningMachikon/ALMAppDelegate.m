@@ -19,7 +19,7 @@
 {
     // TODO 仮
     ALMCentralManager *centralManager = [ALMCentralManager sharedManager];
-    //ALMPeripheralManager *peripheralManager = [ALMPeripheralManager sharedManager];
+    ALMPeripheralManager *peripheralManager = [ALMPeripheralManager sharedManager];
     
     ALMAPIFetcher *APIFetcher = [ALMAPIFetcher sharedManager];
     //[APIFetcher registerDevice:@"2" success:^(id responseObject) {} failure:^(NSError *error){}];

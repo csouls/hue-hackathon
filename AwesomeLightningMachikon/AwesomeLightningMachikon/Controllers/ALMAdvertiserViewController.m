@@ -10,6 +10,8 @@
 
 #import "ALMAdvertiserViewController.h"
 #import "AFHTTPRequestOperationManager.h"
+#import "ALMAPIFetcher.h"
+#import "ALMPeripheralManager.h"
 
 @interface ALMAdvertiserViewController ()
 
@@ -64,7 +66,9 @@
         
         [button setTitle:@"キャンセル" forState:UIControlStateNormal];
         /// !!!: スタート系の呼び出し
-        
+        NSUInteger minor = [ALMAPIFetcher sharedManager].minor;
+        [[ALMPeripheralManager sharedManager] startAdvertising:minor];
+        [ALMPeripheralManager sharedManager];
     }
     else
     {
@@ -77,6 +81,7 @@
         [runningView.layer addAnimation:rotationAnimation forKey:@"rotateAnimation"];
         [button setTitle:@"送信" forState:UIControlStateNormal];
         /// !!!: ストップ系の呼び出し
+        [[ALMPeripheralManager sharedManager] stopAdvertizing];
     }
     
 }

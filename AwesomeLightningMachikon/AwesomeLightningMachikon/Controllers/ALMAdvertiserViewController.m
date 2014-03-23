@@ -32,6 +32,10 @@
     // 結局UUIDはいらない？
     NSUUID *vendorUUID = [UIDevice currentDevice].identifierForVendor;
     //postData = [self loadExam:@"ALMAnswers"];
+    
+    isSending = false;
+    
+    // データをかき集めて構造を作る
     postData = [[NSMutableDictionary alloc] init];
     [postData setObject:[self loadExam:@"ALMAnswers"] forKey:@"Questions"];
     [postData setValue:vendorUUID.UUIDString forKey:@"device_token"];
@@ -47,22 +51,31 @@
 #pragma mark - action
 -(IBAction)send:(id)sender
 {
-    if(timer == nil)
+    UIButton *button = sender;
+    if(!isSending)
     {
-        timer = [NSTimer scheduledTimerWithTimeInterval:1.0
-                                               target:self
-                                             selector:@selector(onTimer)
-                                             userInfo:nil
-                                              repeats:YES];
+        backgroundView.image = [UIImage imageNamed:@"Matikon_Net_On"];
+        isSending = true;
+        CABasicAnimation* rotationAnimation = [CABasicAnimation animationWithKeyPath:@"transform.rotation.z"];
+        rotationAnimation.toValue = [NSNumber numberWithFloat:(M_PI / 180) * 360];
+        rotationAnimation.duration = 10.0f;
+        rotationAnimation.repeatCount = HUGE_VALF;
+        [runningView.layer addAnimation:rotationAnimation forKey:@"rotateAnimation"];
+        
+        [button setTitle:@"キャンセル" forState:UIControlStateNormal];
     }
-    [self post:postData];
-    [self sound];
-    AudioServicesPlaySystemSound(kSystemSoundID_Vibrate);
-}
-
--(void)onTimer
-{
-    [self post:postData];
+    else
+    {
+        backgroundView.image = [UIImage imageNamed:@"Matikon_Net_Off"];
+        isSending = false;
+        CABasicAnimation* rotationAnimation = [CABasicAnimation animationWithKeyPath:@"transform.rotation.z"];
+        rotationAnimation.toValue = [NSNumber numberWithFloat:0];
+        rotationAnimation.duration = 10.0f;
+        rotationAnimation.repeatCount = 0;
+        [runningView.layer addAnimation:rotationAnimation forKey:@"rotateAnimation"];
+        [button setTitle:@"送信" forState:UIControlStateNormal];
+    }
+    
 }
 
 #pragma mark - private

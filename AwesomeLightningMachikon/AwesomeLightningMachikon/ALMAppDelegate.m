@@ -21,6 +21,10 @@
     ALMCentralManager *centralManager = [ALMCentralManager sharedManager];
     //ALMPeripheralManager *peripheralManager = [ALMPeripheralManager sharedManager];
     
+    ALMAPIFetcher *APIFetcher = [ALMAPIFetcher sharedManager];
+    //[APIFetcher registerDevice:@"2" success:^(id responseObject) {} failure:^(NSError *error){}];
+    [APIFetcher registerAnswers:nil success:^(id responseObject) {} failure:^(NSError *error){}];
+    
     // APNS
     
     [[UIApplication sharedApplication]

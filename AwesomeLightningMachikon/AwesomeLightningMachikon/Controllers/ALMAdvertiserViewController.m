@@ -63,6 +63,8 @@
         [runningView.layer addAnimation:rotationAnimation forKey:@"rotateAnimation"];
         
         [button setTitle:@"キャンセル" forState:UIControlStateNormal];
+        /// !!!: スタート系の呼び出し
+        
     }
     else
     {
@@ -74,6 +76,7 @@
         rotationAnimation.repeatCount = 0;
         [runningView.layer addAnimation:rotationAnimation forKey:@"rotateAnimation"];
         [button setTitle:@"送信" forState:UIControlStateNormal];
+        /// !!!: ストップ系の呼び出し
     }
     
 }

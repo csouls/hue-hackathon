@@ -533,10 +533,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AwesomeLightningMachikon/AwesomeLightningMachikon-Prefix.pch";
 				INFOPLIST_FILE = "AwesomeLightningMachikon/AwesomeLightningMachikon-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "B14BD866-FBCE-4687-AE1F-D37C8D1637A4";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -547,10 +549,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AwesomeLightningMachikon/AwesomeLightningMachikon-Prefix.pch";
 				INFOPLIST_FILE = "AwesomeLightningMachikon/AwesomeLightningMachikon-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "B14BD866-FBCE-4687-AE1F-D37C8D1637A4";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

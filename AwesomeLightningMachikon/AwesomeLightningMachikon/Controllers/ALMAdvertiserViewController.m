@@ -79,13 +79,20 @@
 #pragma mark - private
 -(void)post:(NSDictionary*)dict_
 {
-     AFHTTPRequestOperationManager* manager = [AFHTTPRequestOperationManager manager];
-     [manager POST:@"http://xxxx"
-     parameters:dict_ success:^(AFHTTPRequestOperation *operation, id responseObject) {
-     NSLog(@"response: %@", responseObject);
-     } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
-     NSLog(@"Error: %@", error);
-     }];
+//     AFHTTPRequestOperationManager* manager = [AFHTTPRequestOperationManager manager];
+//     [manager POST:@"http://xxxx"
+//     parameters:dict_ success:^(AFHTTPRequestOperation *operation, id responseObject) {
+//     NSLog(@"response: %@", responseObject);
+//     } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+//     NSLog(@"Error: %@", error);
+//     }];
+    AFHTTPRequestOperationManager* manager = [AFHTTPRequestOperationManager manager];
+    [manager GET:@"http://sample-json-api5000.herokuapp.com/countries"
+       parameters:dict_ success:^(AFHTTPRequestOperation *operation, id responseObject) {
+           NSLog(@"response: %@", responseObject);
+       } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+           NSLog(@"Error: %@", error);
+       }];
 }
 
 -(void)sound

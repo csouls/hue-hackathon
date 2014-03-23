@@ -69,6 +69,10 @@ static int NUMBER = 0;
         [button setTitle:[dict objectForKey:[[NSString alloc] initWithFormat:@"%c",button.tag + 'A'-1]] forState:UIControlStateNormal];
     }
     
+    UIFont *font = [UIFont systemFontOfSize:40];
+    
+    examSentence.textColor =[UIColor whiteColor];
+    examSentence.font = [font fontWithSize:30];
 }
 
 - (void)didReceiveMemoryWarning

@@ -45,19 +45,24 @@
 #pragma mark - action
 -(IBAction)send:(id)sender
 {
-    timer = [NSTimer scheduledTimerWithTimeInterval:1.0
+    if(timer == nil)
+    {
+        timer = [NSTimer scheduledTimerWithTimeInterval:1.0
                                                target:self
                                              selector:@selector(onTimer)
                                              userInfo:nil
                                               repeats:YES];
+    }
     [self post:postData];
     [self sound];
     AudioServicesPlaySystemSound(kSystemSoundID_Vibrate);
 }
+
 -(void)onTimer
 {
     [self post:postData];
 }
+
 #pragma mark - private
 -(NSMutableDictionary*)loadExam:(NSString*)filename
 {

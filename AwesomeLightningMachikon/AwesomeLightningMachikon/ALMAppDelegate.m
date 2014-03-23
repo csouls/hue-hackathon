@@ -9,6 +9,7 @@
 #import "ALMAppDelegate.h"
 #import "ALMCentralManager.h"
 #import "ALMPeripheralManager.h"
+#import "ALMAPIFetcher.h"
 
 @import AVFoundation;
 
@@ -20,8 +21,9 @@
     ALMCentralManager *centralManager = [ALMCentralManager sharedManager];
     //ALMPeripheralManager *peripheralManager = [ALMPeripheralManager sharedManager];
     
-    // Override point for customization after application launch.
-    
+    ALMAPIFetcher *APIFetcher = [ALMAPIFetcher sharedManager];
+    [APIFetcher registerDevice:nil success:^(id responseObject) {} failure:^(NSError *error){}];
+        
     // APNS
     
     [[UIApplication sharedApplication]
